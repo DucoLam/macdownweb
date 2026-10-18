@@ -490,8 +490,8 @@ Totals: 1676 tests, 1661 passed, 15 failed, 0 skipped. Every failing test names 
 | D-04 | not a defect (M4) |
 | D-05 to D-08 | fixed (verified in M4) |
 | D-09 to D-12 | fixed (verified in M5) |
-| D-13 | **open, major** |
-| D-14 to D-20 | **open, minor** |
+| D-13 | fixed (verified in the final sign-off) |
+| D-14 to D-20 | fixed (verified in the final sign-off) |
 
 ### Exploratory pass (production build, real browser run)
 
@@ -530,22 +530,22 @@ Section 3 (menus): every item of the MacDown, File, Edit, View, Format and Help 
 | F-13 | tested-pass | pass | 10 / 1 | explore: F-13 menu bar titles are operable from the keyboard (Enter open…; layout: F-13 View menu hides and shows the toolbar with title toggle |
 | F-14 | tested-pass | pass | 22 / 0 | m4-editing: F-14 T-10..T-12 Comment, Highlight, Strikethrough through toolb…; m4-independent: F-14 the dialog lists all 13 items in the original order with l… |
 | F-15 | tested-pass | pass | 2 / 0 | layout: F-15 View menu has Enter Full Screen and requests fullscreen |
-| F-16 | partial | fail (D-19) | 7 / 2 | layout: F-01 default window title/tab title is Untitled (F-16 partial); m5-files-prefs-export: F-34 / F-16 an empty untitled document is not edited: title "Un… — window frame not remembered (title and split ratio only, by design); split ratio not restored on launch (D-19) |
+| F-16 | partial | pass (D-19 fixed) | 7 / 2 | layout: F-01 default window title/tab title is Untitled (F-16 partial); m5-files-prefs-export: F-34 / F-16 an empty untitled document is not edited: title "Un… — window frame not remembered (title and split ratio only, by design); split ratio restored on launch since D-19 was fixed; the window frame is not remembered, by design |
 | F-17 | tested-pass | pass | 3 / 0 | m5-files-prefs-export: F-17 / U-19 scale preview: zoom = font size / 14 when on, reset…; m5-independent: F-17 zoom = base font size / 14 when P-29 is on; applied live, … |
-| F-18 | partial | fail (D-15, D-16) | 10 / 0 | m3-independent: F-135 clicking javascript: links in the preview does nothing (F…; m5-independent: F-18 dragging onto the preview is disabled: a dropped .md on th… — anchors, external links and drag tested; `name` anchors and malformed escapes fail (D-15, D-16) |
+| F-18 | partial | pass (D-15, D-16 fixed) | 10 / 0 | m3-independent: F-135 clicking javascript: links in the preview does nothing (F…; m5-independent: F-18 dragging onto the preview is disabled: a dropped .md on th… — anchors, external links and drag tested; `name` anchors and malformed escapes work since D-15 and D-16 were fixed; partial because the preview is a sandboxed iframe and link clicks are handled by the app |
 | F-20 | partial | pass | 1 / 0 | m5-independent: F-20 (accepted deviation) clicking a relative link does nothing — accepted deviation (relative URLs unresolved); only link-click behaviour tested |
-| F-21 | tested-pass | fail (D-20) | 9 / 0 | m5-files-prefs-export: F-21 New on an edited document asks to save: Cancel keeps it, D…; m5-independent: F-21 the prompt names the document, offers Don't Save / Cancel … |
-| F-22 | tested-pass | fail (D-13, D-20) | 24 / 0 | m5-files-prefs-export: F-22 Open (File System Access API): the file becomes the docume…; m5-independent: F-22 the picker offers md, markdown and plain text; the opened … |
-| F-25 | tested-pass | fail (D-14, D-20) | 6 / 0 | m5-files-prefs-export: F-25 Close: asks when edited, then a blank untitled document (P…; m5-independent: F-25 Close of an edited document: Cancel keeps it, Don't Save c… |
+| F-21 | tested-pass | pass (D-20 fixed) | 9 / 0 | m5-files-prefs-export: F-21 New on an edited document asks to save: Cancel keeps it, D…; m5-independent: F-21 the prompt names the document, offers Don't Save / Cancel … |
+| F-22 | tested-pass | pass (D-13, D-20 fixed) | 24 / 0 | m5-files-prefs-export: F-22 Open (File System Access API): the file becomes the docume…; m5-independent: F-22 the picker offers md, markdown and plain text; the opened … |
+| F-25 | tested-pass | pass (D-14, D-20 fixed) | 6 / 0 | m5-files-prefs-export: F-25 Close: asks when edited, then a blank untitled document (P…; m5-independent: F-25 Close of an edited document: Cancel keeps it, Don't Save c… |
 | F-26 | tested-pass | pass | 7 / 0 | m5-files-prefs-export: F-26 / F-31 first Save: panel suggests the highest-level header…; m5-independent: F-26 fallback: the opened file is saved by download under its o… |
 | F-27 | tested-pass | pass | 3 / 0 | m5-files-prefs-export: F-27 Save As always opens the panel with the current name and s…; m5-independent: F-27 Save As with a handle-less restored document opens the pan… |
-| F-28 | tested-pass | fail (D-20) | 4 / 0 | m5-files-prefs-export: F-28 Revert to Saved: disabled until edited; asks; reloads the …; m5-independent: F-28 Revert asks, Cancel keeps the edits, Revert reloads the fi… |
-| F-29 | tested-pass | fail (D-14, D-18) | 7 / 0 | m5-files-prefs-export: F-29 the draft survives a reload (text, edited state); m5-independent: F-29 the draft is written within about 250 ms of a change and i… |
+| F-28 | tested-pass | pass (D-20 fixed) | 4 / 0 | m5-files-prefs-export: F-28 Revert to Saved: disabled until edited; asks; reloads the …; m5-independent: F-28 Revert asks, Cancel keeps the edits, Revert reloads the fi… |
+| F-29 | tested-pass | pass (D-14, D-18 fixed) | 7 / 0 | m5-files-prefs-export: F-29 the draft survives a reload (text, edited state); m5-independent: F-29 the draft is written within about 250 ms of a change and i… |
 | F-30 | tested-pass | pass | 8 / 0 | m5-files-prefs-export: F-30 P-41 on: Save appends a newline in the editor and the file…; m5-independent: F-30 P-41 on: Save of "abc" appends a newline; the selection is… |
-| F-31 | tested-pass | fail (D-17) | 21 / 0 | m5-files-prefs-export: F-26 / F-31 first Save: panel suggests the highest-level header…; m5-independent: F-31 presumed name "# Top" (P-28 off) = "Top": Export HTML pane… |
+| F-31 | tested-pass | pass (D-17 fixed) | 21 / 0 | m5-files-prefs-export: F-26 / F-31 first Save: panel suggests the highest-level header…; m5-independent: F-31 presumed name "# Top" (P-28 off) = "Top": Export HTML pane… |
 | F-32 | tested-pass | pass | 4 / 0 | m5-independent: F-32 / U-12 P-02 on (default): a blank document or the last dra… |
 | F-33 | tested-pass | pass | 4 / 0 | m5-files-prefs-export: F-33 a JPEG dropped on the editor is inserted as a data URI at …; m5-independent: F-33 a JPEG dropped on the editor is inserted as a data URI at … |
-| F-34 | tested-pass | fail (D-13) | 6 / 0 | m5-files-prefs-export: F-34 / F-16 an empty untitled document is not edited: title "Un…; m5-independent: F-34 an untitled document is edited only while it has text: typ… |
+| F-34 | tested-pass | pass (D-13 fixed) | 6 / 0 | m5-files-prefs-export: F-34 / F-16 an empty untitled document is not edited: title "Un…; m5-independent: F-34 an untitled document is edited only while it has text: typ… |
 | F-35 | tested-pass | pass | 9 / 0 | m5-files-prefs-export: F-35 Export HTML: accessory defaults, panel name, exported body…; m5-independent: E-07 / F-35 hostile content exported and copied stays text: not… |
 | F-36 | partial | pass | 3 / 0 | m5-files-prefs-export: F-36 Export PDF (Opt+Cmd+P): print dialog with the presumed fil…; m5-independent: F-37 / F-36 Print and Export PDF call print() on the preview do… — print() on the preview, file name/title and the 50/0 pt page rule tested; the browser print dialog and PDF file cannot be automated |
 | F-37 | partial | pass | 7 / 0 | m5-files-prefs-export: F-37 Print (Cmd+P) prints the preview document only, with 50 pt…; m5-independent: F-37 the preview document carries @page { margin: 50pt 0pt } as… — as F-36; margins also verified by printing a PDF in Chromium with the same rule on a top-level page |
@@ -640,7 +640,7 @@ Section 3 (menus): every item of the MacDown, File, Edit, View, Format and Help 
 | F-140 | tested-pass | pass | 6 / 0 | m5-files-prefs-export: F-140 Cmd+, and MacDown > Preferences… open the window; panes G…; m5-independent: F-142 / F-140 the MacDown menu lists About MacDown and Preferen… |
 | F-141 | tested-pass | pass | 22 / 0 | m3-independent: F-141 toggling every extension live updates the preview without…; m3-rendering: toggling P-20 live re-renders with and without tokens (F-141) |
 | F-142 | tested-pass | pass | 2 / 0 | m5-files-prefs-export: F-142 About MacDown shows name, version 0.7.3 (1008.4), copyrig…; m5-independent: F-142 / F-140 the MacDown menu lists About MacDown and Preferen… |
-| F-153 | tested-pass | fail (D-15, D-20) | 10 / 1 | m5-files-prefs-export: F-153 MacDown Help opens help.md as an editable document withou…; m5-independent: F-153 Help is the original help.md byte for byte, opens in fron… |
+| F-153 | tested-pass | pass (D-15, D-20 fixed) | 10 / 1 | m5-files-prefs-export: F-153 MacDown Help opens help.md as an editable document withou…; m5-independent: F-153 Help is the original help.md byte for byte, opens in fron… |
 | F-154 | tested-pass | pass | 2 / 0 | m5-files-prefs-export: F-154 Contributing to MacDown opens contribute.md; a reload whi…; m5-independent: F-153 a reload while the help document is open restores the use… |
 | F-155 | tested-pass | pass | 2 / 0 | m5-files-prefs-export: F-155 the first visit opens the help document; the next visit d…; m5-independent: F-155 the first launch opens help in front of the (blank) docum… |
 | F-162 | tested-pass | pass | 7 / 0 | m4-editing: F-162 Underline, Strikethrough, Highlight: hidden and inert unl…; m4-independent: F-162 underline: hidden item and dead shortcut while extensionU… |
@@ -648,9 +648,105 @@ Section 3 (menus): every item of the MacDown, File, Edit, View, Format and Help 
 | F-165 | tested-pass | pass | 1 / 0 | m4-independent: F-165 divider takes the editor background when the preview is c… |
 | F-166 | tested-pass | pass | 4 / 2 | m3-independent: F-166 no style: no style tags and live switch between a style a…; m4-editing: F-74 / F-166 all 15 themes and "no theme" apply, with the file … |
 
+(Counts in the table are those of the M5 run; the final sign-off added 111 tests, see the next section. Result column updated.)
+
 In F-IDs with no test: **none**. F-20 and F-164 have one test each (F-20 is an accepted deviation).
 
 ### Release recommendation
 
 - **M5: GO with conditions** (see the M5 section: fix or accept D-13).
 - **Release as a whole: GO with conditions.** No blocker, no data loss other than D-13 (line endings rewritten on save) and the stale-draft cases (D-14, D-18); security checks passed (preview inert, export and Copy HTML cannot execute in the app origin, hostile `.md` and file names harmless); all 132 In features have tests and 125 of them pass cleanly. Conditions: D-13 fixed or explicitly accepted by the Chief of Staff; D-15 and D-20 recommended before release because they are visible in the first minutes of use (dead help links, no keyboard focus after New or Open); D-14, D-16 to D-19 may ship as known issues. After fixes, re-run the 15 failing tests (they pass as they stand once the defects are fixed) and the full suite.
+
+
+---
+
+## Final sign-off
+
+Date: 2026-10-18. Tester: test-engineer. Build under test: `web/` working tree after the builder's fixes for D-13 to D-20, O-01, O-03 and `linearLinkEnd.ts`. No file under `web/src` was changed. Added: `web/tests/unit/m5-signoff.test.ts` (74 tests), `web/tests/e2e/m5-signoff.spec.ts` (37 tests), `web/tests/unit/fixtures/foundation-pathext.json`; `docs/test-plan.md` has a "Final sign-off" section. Probe: `pe.m` (Foundation `pathExtension` and `stringByDeletingPathExtension`, 35 names; 33 compared), scratchpad `so/`.
+
+### Commands and results
+
+```sh
+export PATH=$HOME/.nvm/versions/node/v24.22.0/bin:$PATH
+cd web
+npm run build                         # PASS (tsc -b over src, tests and configs; vite build; MathJax chunk 1.8 MB as before)
+npm test                              # Vitest: 14 files, 762 passed, 0 failed, 1.1 s
+npm run test:e2e                      # run A: 6 workers (default), 5.2 min, load average 3 to 15: 1084 passed, 7 failed (load, see below)
+npm run test:e2e -- --workers=3       # run B: 3 workers, 4.4 min (263 s), load average 5 to 6: 1091 passed, 0 failed
+```
+
+| Suite | Passed | Failed | Skipped |
+|---|---|---|---|
+| Unit (Vitest) | 762 (688 existing incl. the changed SD-13 assertion, +74 mine) | 0 | 0 |
+| E2E (Playwright, Chromium), run B, 3 workers | 1091 (1054 existing, +37 mine) | 0 | 0 |
+| **Total** | **1853** | **0** | **0** |
+
+Before the runs no `vite --port 5173` or `playwright test` process was running.
+
+**Machine load and flaky tests.** Another workload on the machine kept the load average between 3 and 15 during run A (nothing of mine was running between the runs). In run A seven tests failed on timeouts and all seven passed when rerun alone (2 workers, 38.7 s): `m3-independent.spec.ts:270` (F-124 Prism theme looks), `:379` (F-130 escaped `\$`), `:403`, `:410`, `:417`, `:423` (F-132 task lists), and `m5-independent.spec.ts:2199` (E-03 export without P-18). In run B (3 workers, load 5 to 6) they all passed, with the rest of the suite. The two tests flagged earlier (`m4-independent.spec.ts:1612` and `:1806`) passed in both runs. None of the 7 is a defect; they are load-flaky.
+
+### SD-13 verdict: the builder is right
+
+- `NSString+Lookup.m:55-87` (`frontMatter:`): the front matter text between the `---` lines is parsed with `kYAMLReadOptionStringScalars`; the result `objects[0]` is returned whatever it is.
+- `YAMLSerialization.m:80-82`: every scalar node becomes `[[NSString alloc] initWithUTF8String:...]`. For `title:` libyaml's document loader emits an empty plain scalar node, so the value is `@""`; `title: ~` and `title: null` are the strings `~` and `null`, never `NSNull`.
+- `MPDocument.m:1873-1875`: `title = [[[string frontMatter:NULL] objectForKey:@"title"] description]; if (title) return title;`, the only test is for nil, so `@""` is returned and the header is not used.
+- I could not run the YAML parser itself (libyaml is not in the vendor tree and not on the machine; PyYAML is absent); the conclusion rests on the source and on libyaml's well-known behaviour for an empty value. The spec text (item 102) matches.
+- Action: the single assertion in `tests/unit/m5-independent.test.ts` (line 192) is now `expect(name('---\ntitle:\n---\n# H', true)).toBe('')`, with a comment. Nothing else in that file was changed. An E2E test confirms Save then suggests `Untitled.md` (the documented deviation for the original's crash).
+
+### Status of D-13 to D-20
+
+| Defect | Status | Evidence |
+|---|---|---|
+| D-13 CRLF converted to LF | **verified fixed** | The 14 earlier tests pass. New: mixed CRLF / LF / lone CR document opens not edited and Save As writes it byte for byte; CR-only, CRLF-only, trailing-CR cases; Backspace, Delete and Return at 9 positions around a CRLF, a CR and an LF, each with undo, redo, undo (Edited clears, title back to `mixed.md`); a selection across breaks deleted or replaced, undone; typing next to breaks; Save in place; draft reload (stays Edited) then Save As; download fallback bytes; P-41 on a CRLF file. Pasted CRLF becomes LF (the documented deviation). |
+| D-14 stale text after Close with P-02 off | **verified fixed** | earlier test passes. |
+| D-15 `<a name>` anchors | **verified fixed** | id before name in both orders, first of several names, a `name` on a non-`<a>` element is not a target, `id="top"` wins for `#top`, the 7 help links (earlier test). |
+| D-16 malformed percent escape | **verified fixed** | `#100%`, `#%`, `#%zz`, `#%E0%A4%A`, `#%FF`, `#%C3`: no page error, no scroll; `%41`, `%20`, `%C3%A9`, `%25` find ids `A`, `a b`, `café`, `100%`. |
+| D-17 extension stripping | **verified fixed** | 33 of 35 names compared to Foundation (the two ending in `/` are skipped) (`a.`, `a..md`, `..md`, `.md`, `a.md.`, `a.\tb`, no-break space, `a/b.c/d`, `x.日本`, newline in extension). Only difference, not tested and not reachable: a name ending in `/` (Foundation drops the slash; file names never end in one). |
+| D-18 stale over-quota draft | **verified fixed** | earlier test passes. |
+| D-19 split ratio at launch | **verified fixed** | earlier test passes. |
+| D-20 focus | **verified fixed** | New, Open, Revert, Help and Close leave the cursor in the editor and typing works; with the editor pane hidden the preview iframe gets the focus and typing changes nothing; with no document Close focuses New, Enter on it creates a document with the editor focused, Open and Help from the empty state focus the editor. |
+
+### Review of the builder's other changes
+
+- **O-01 (Save in the same task as a change): verified.** Save As, Save, and Export HTML issued in the same task as `set()` write the new text. When a Save is followed in the same task by another change, the file holds the text current when the write happens (NSDocument also writes after the panel returns) and the Edited state agrees with it (test asserts consistency, not a particular value).
+- **O-03 (refused save-picker name): verified.** A refused name is retried with a safe name (`a/b: c.md` -> `a-b- c.md`; `x*y?"z"<w>|\v.md` -> `x-y--z--w---v.md`; `***.md` -> `---.md`; a name starting with a dot gets `Untitled` in front); a second refusal shows "The document “Untitled” could not be saved." and the document stays edited, nothing written, the editor usable; `NotAllowedError` and `SecurityError` on the retry give the sheet; `AbortError` on either panel gives no retry and no sheet; Save As of a named document and Export HTML use the same path; after a successful retry the next Save writes in place without a panel. The tests use quoted YAML titles (an unquoted `a/b: c` is invalid YAML and falls back to Untitled, which is correct).
+- **`linearLinkEnd.ts`: output equals the stock parser.** Compared as node names and positions on 30 hand-written cases (links, images, nested brackets, reference links and definitions, titles, escapes, entities, inline HTML, autolinks, lists, quotes, tables, code, CR/CRLF, CJK, 3000 nested `[`, 500-deep image nesting, a 100 KB line on each side of a link, a 50 KB link text and destination), the repo's 10 Markdown documents plus every paragraph of the Prism README and CHANGELOG, **30,000 random inputs** over three alphabets, and on the GFM base; all equal. The 40,000-link paragraph (about 2.2 MB) parses well under the 3 s bound. In the production build a 2 MB file with 40,000 links in one paragraph opens in **3.0 s** (headless Chromium, load 5) and a keystroke in it takes 66 ms. Fallback: with no `inlineNames`/`inlineParsers`, with another shape, with Link, Image or LinkEnd missing, or with undefined parsers, `linearLinkEnd` returns `{}`, so Lezer's own parser is used unchanged (tested at unit level; the app-level switch-off was not simulated in the browser). It reads Lezer-internal fields of `@lezer/markdown` 1.8.0; a future upgrade that changes the internals silently falls back to the stock O(n^2) parser, and the equivalence tests would flag a change of tree.
+- **In-page link rules** (id first, then the first `<a name>`, `#`, `#top`, `#TOP`, `#Top`): verified above.
+
+### Exploratory pass (production build)
+
+`npm run build && npm run preview` on :4173, Playwright (Chromium 1280x800, fresh profile, File System Access API removed to exercise the fallbacks): first launch shows help, Close gives Untitled; typed a heading and a link; Cmd+B gave `**bold**`; opened a CRLF file through the file input, typed at the end, Save downloaded it with CRLF kept (`# W\r\n\r\ntext\r\n<a name="x"></a>[go](#x)\r\nmore`); Preferences opened (General, Markdown, Editor, Rendering tabs) and a checkbox toggled; Export HTML downloaded `win.html` (9 KB, name from the file); Help opened and the in-page link "Markdown preference pane" scrolled the preview (scroll 4759 px); a 2 MB file with 40,000 links opened in 3.0 s. **Console errors, warnings, page errors, failed requests and 4xx responses: none.** (In the dev server, Chromium logs "Blocked script execution ... sandboxed" console messages from the preview iframe when documents with in-page links are rendered; they come from the sandbox and were not seen in the production-build run, which did not render hostile HTML.)
+
+### New defects
+
+None (D-21 and later: not assigned). Observations, not defects:
+- **O-07** The Export HTML error sheet names the file as suggested (`a/b: c.html`), not the sanitised name of the second attempt. Cosmetic.
+- **O-08** Save As on an untitled document suggests `Untitled.md` (F-27: the current name), so a front-matter title is not used there; this is the specified behaviour.
+
+### Remaining known issues and partial features
+
+| ID | Impact |
+|---|---|
+| F-16 (partial) | Window frame is not remembered (title and split ratio only, by design); the split ratio per file is remembered and now restored at launch. |
+| F-18 (partial) | Links in the preview are handled by the app (anchors, external links); relative file links do nothing (F-20). |
+| F-20 (accepted deviation) | A relative image `pic.png` is requested from the app origin; relative links do nothing. |
+| F-36 / F-37 (partial) | Print and Export PDF call the browser print dialog; the file name is the page title and cannot be set, the dialog and PDF file cannot be automated (the `@page` 50pt/0pt margins were verified in a real Chromium PDF). |
+| F-62 (partial) | IME composition (rule 0) of auto-pairing is not automatable. |
+| F-130 (partial) | MathJax 3 runs locally instead of 2.7.3 from the CDN; the export links the 2.7.3 CDN as the original. |
+| Deviations kept | Pasted or dropped CRLF text gets LF breaks; a draft larger than the browser quota is not kept; the Save panel suggests `Untitled.md` where the original raises; file handles are not persisted across reloads; the app is client-only (no Firefox or Safari File System Access API, fallbacks tested). |
+| Load sensitivity | 7 tests (listed above) need an unloaded machine or fewer workers. |
+
+### Manual checks still needed
+
+1. Print and Export PDF (Cmd+P, Opt+Cmd+P) in a real, headed browser: the dialog opens, the margins look right, the suggested PDF name.
+2. Real File System Access pickers in headed Chrome/Edge: Open, Save, Save As, and especially a name the OS refuses (the O-03 retry may be refused for lack of user activation, then the error sheet shows); Revert after an external change; the permission prompt on Save to a handle after a long idle time.
+3. Firefox and Safari: only the fallback paths (file input, download) apply; a quick pass of New, Open, Save, Export.
+4. Clipboard permission prompts for Copy HTML in a normal (non-headless) profile.
+5. IME composition with auto-pairing (Japanese, Chinese), VoiceOver reading of the menus, dialogs and preferences.
+6. Visual comparison against the real MacDown 0.7.3 on a Retina display (fonts, theme colours, full screen).
+
+### Go / no-go
+
+- **Release: GO.** All eight M5 defects (D-13 to D-20) are verified fixed; no blocker or major defect is open; no new defect was found; the full suite is green (1853 passed, 0 failed, 0 skipped; the 7 failures of the loaded run passed alone and in the 3-worker run); build passes; the production build runs without console or page errors. SD-13 resolved in the builder's favour.
+- Per milestone: **M2 GO, M3 GO, M4 GO, M5 GO.**
+- Conditions: none blocking. The manual checks above should be done once by a person before a public announcement.

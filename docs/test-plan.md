@@ -106,3 +106,18 @@ Files: `tests/unit/m5-independent.test.ts`, `tests/e2e/m5-independent.spec.ts` (
 | Security | hostile file opened (10 vectors, all script features on), hostile content exported and copied, hostile file name in `<title>` |
 | Section 3 | every in-scope menu: items, order, shortcut glyphs; Out items absent; shortcut look-alikes; shortcuts blocked while a sheet is open |
 | Exploratory | production build (`vite preview`), whole UI clicked through, screenshots, console and page errors recorded; focus after document commands; storage quota |
+
+## Final sign-off (M5 fixes D-13 to D-20, SD-13, O-01, O-03, linear LinkEnd)
+
+Files: `tests/unit/m5-signoff.test.ts` (74 tests), `tests/e2e/m5-signoff.spec.ts` (37 tests), fixture `tests/unit/fixtures/foundation-pathext.json` (output of a Foundation probe, `pathExtension` and `stringByDeletingPathExtension` of 35 names; scratchpad `so/pe.m`).
+
+| Area | Cases |
+|---|---|
+| SD-13 | Source check (YAMLSerialization.m:80-82, MPDocument.m:1873-1875, NSString+Lookup.m `frontMatter:`): an empty `title:` is `""` and `presumedFileName` tests only nil. The single assertion in `m5-independent.test.ts` changed from `'H'` to `''`. Also E2E: Save suggests `Untitled.md` for it |
+| D-13 / SD-11 | Mixed CRLF, LF and lone CR: Open (not edited), Save As bytes, CR-only, CRLF-only, trailing-CR documents; Backspace, Delete and Return at 9 positions around each break kind, each with undo, redo, undo (Edited clears at the original text); selection across breaks deleted or replaced then undone; typing next to breaks; Save in place; draft reload then Save As; download fallback bytes; pasted CRLF becomes LF (documented deviation); P-41 on a CRLF file; preview of CR/CRLF text |
+| O-01 | Save As, Save + later change, Export HTML each issued in the same task as `set()`; typing then Save |
+| O-03 | refused name then safe name (every forbidden character, a hidden name, only forbidden characters), both refused (error sheet, still edited, editor usable), NotAllowedError / SecurityError on the retry, AbortError on the first or the second panel (no sheet), Save As of a named document, Export HTML retry and error sheet, Save in place after the retry |
+| F-18 / D-15 / D-16 | id vs `<a name>` in both orders, first of several names, name on a non-`<a>` element, `#`, `#top`, `#TOP`, `#Top`, `id="top"`, percent escapes (`%41`, `%20`, UTF-8, `%25`), malformed escapes (`#100%`, `#%`, `#%zz`, `#%E0%A4%A`, `#%FF`, `#%C3`) with page errors recorded, an id containing a literal `%` |
+| D-17 | 35 names against the Foundation probe (`a.`, `a..md`, `..md`, `a.\tb`, no-break space, `a/b.c/d`, non-ASCII extensions...) |
+| D-20 | Matrix: New, Open, Revert, Help, Close with the editor focused and typing working; editor pane hidden (preview focused, text unchanged); no document (Close focuses New; Enter on it; Open and Help from the empty state) |
+| linearLinkEnd | Node names and positions equal to the stock parser on 30 fixed cases (nested brackets, images, reference links, titles, escapes, entities, HTML, lists, quotes, tables, code, CR/CRLF, CJK, 100 KB lines, 3000 nested `[`), the 10 Markdown documents of the repo and every Prism README paragraph, 30,000 random inputs over three alphabets, the GFM base; 40,000-link paragraph is linear; fallback: no override when `inlineNames`/`inlineParsers` are missing, of another shape, lack Link, Image or LinkEnd, or hold undefined parsers |

@@ -188,7 +188,8 @@ describe('F-31 presumed file name (MPDocument.m:1865-1892, NSString+Lookup.m:89-
     expect(name('---\nauthor: x\n---\n# H', true)).toBe('H');
     expect(name('---\ntitle: 42\n---\n', true)).toBe('42');
     expect(name('---\ntitle: true\n---\n', true)).toBe('true');
-    expect(name('---\ntitle:\n---\n# H', true)).toBe('H');
+    // SD-13 (verified against YAMLSerialization.m:80-82 and MPDocument.m:1873-1875): an empty title is "", not nil.
+    expect(name('---\ntitle:\n---\n# H', true)).toBe('');
     expect(name('# H\n---\ntitle: T\n---\n', true)).toBe('H'); // not at the start of the text
     expect(name('---\n: bad: yaml: [\n---\n# H', true)).toBe('H');
   });
