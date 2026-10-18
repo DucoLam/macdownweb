@@ -1,0 +1,8 @@
+services:
+  macdown-web:
+    build: ./web
+    image: macdown-web
+    container_name: macdown-web
+    ports:
+      - "8080:80"
+    restart: unless-stopped
