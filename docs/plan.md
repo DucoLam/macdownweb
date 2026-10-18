@@ -1,11 +1,11 @@
 # Plan — MacDown → Web Application
 
 ## Source
-- App bundle: `/Users/sam/Downloads/MacDown.app` (0.7.3)
+- App bundle: `~/Downloads/MacDown.app` (0.7.3)
 - Source code (MIT): https://github.com/MacDownApp/macdown — authoritative for behaviour, preference keys/defaults, and Hoedown flags. Clone into `vendor/macdown` (gitignored) for reference.
 
 ## Goal
-Rebuild MacDown 0.7.3 (native macOS Markdown editor, `/Users/sam/Downloads/MacDown.app`) as a browser-based web application with feature parity on the core editing/preview workflow.
+Rebuild MacDown 0.7.3 (native macOS Markdown editor, `~/Downloads/MacDown.app`) as a browser-based web application with feature parity on the core editing/preview workflow.
 
 ## Definition of done
 - `docs/spec.md` describes MacDown's features (derived from the app bundle: nibs, plists, help.md, Styles, Themes, Prism, MathJax, syntax_highlighting.json, preference panes).

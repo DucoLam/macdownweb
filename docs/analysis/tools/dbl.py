@@ -1,5 +1,6 @@
 import re,struct,sys
-data=open('/Users/sam/Downloads/MacDown.app/Contents/MacOS/MacDown','rb').read()
+import os
+data=open(os.path.expanduser('~/Downloads/MacDown.app/Contents/MacOS/MacDown'),'rb').read()
 pat=sys.argv[1]; p=False; lines=open(sys.argv[2]).read().split('\n')
 for i,l in enumerate(lines):
     if re.match(r'^[-+]\[',l): p = pat in l; 

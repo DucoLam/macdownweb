@@ -125248,602 +125248,602 @@ MacDown:
 000000010007303a	pushq	%rbp
 000000010007303b	movq	%rsp, %rbp
 000000010007303e	leaq	0xfef1(%rip), %rdi              ## literal pool for: "cons"
-0000000100073045	leaq	0xfe87(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Dependency/peg-markdown-highlight/pmh_parser.c"
+0000000100073045	leaq	0xfe87(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Dependency/peg-markdown-highlight/pmh_parser.c"
 000000010007304c	leaq	0xfee8(%rip), %rcx              ## literal pool for: "elem != NULL"
 0000000100073053	movl	$0x2a6, %edx                    ## imm = 0x2A6
 0000000100073058	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 000000010007305d	pushq	%rbp
 000000010007305e	movq	%rsp, %rbp
 0000000100073061	leaq	0xfece(%rip), %rdi              ## literal pool for: "cons"
-0000000100073068	leaq	0xfe64(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Dependency/peg-markdown-highlight/pmh_parser.c"
+0000000100073068	leaq	0xfe64(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Dependency/peg-markdown-highlight/pmh_parser.c"
 000000010007306f	leaq	0xfec5(%rip), %rcx              ## literal pool for: "elem != NULL"
 0000000100073076	movl	$0x2a6, %edx                    ## imm = 0x2A6
 000000010007307b	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073080	pushq	%rbp
 0000000100073081	movq	%rsp, %rbp
 0000000100073084	leaq	0xfeab(%rip), %rdi              ## literal pool for: "cons"
-000000010007308b	leaq	0xfe41(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Dependency/peg-markdown-highlight/pmh_parser.c"
+000000010007308b	leaq	0xfe41(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Dependency/peg-markdown-highlight/pmh_parser.c"
 0000000100073092	leaq	0xfea2(%rip), %rcx              ## literal pool for: "elem != NULL"
 0000000100073099	movl	$0x2a6, %edx                    ## imm = 0x2A6
 000000010007309e	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 00000001000730a3	pushq	%rbp
 00000001000730a4	movq	%rsp, %rbp
 00000001000730a7	leaq	0xfe1c(%rip), %rdi              ## literal pool for: "mk_etext"
-00000001000730ae	leaq	0xfe1e(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Dependency/peg-markdown-highlight/pmh_parser.c"
+00000001000730ae	leaq	0xfe1e(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Dependency/peg-markdown-highlight/pmh_parser.c"
 00000001000730b5	leaq	0xfe6b(%rip), %rcx              ## literal pool for: "string != NULL"
 00000001000730bc	movl	$0x2e4, %edx                    ## imm = 0x2E4
 00000001000730c1	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 00000001000730c6	pushq	%rbp
 00000001000730c7	movq	%rsp, %rbp
 00000001000730ca	leaq	0xfe65(%rip), %rdi              ## literal pool for: "cons"
-00000001000730d1	leaq	0xfdfb(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Dependency/peg-markdown-highlight/pmh_parser.c"
+00000001000730d1	leaq	0xfdfb(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Dependency/peg-markdown-highlight/pmh_parser.c"
 00000001000730d8	leaq	0xfe5c(%rip), %rcx              ## literal pool for: "elem != NULL"
 00000001000730df	movl	$0x2a6, %edx                    ## imm = 0x2A6
 00000001000730e4	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 00000001000730e9	pushq	%rbp
 00000001000730ea	movq	%rsp, %rbp
 00000001000730ed	leaq	0xfe42(%rip), %rdi              ## literal pool for: "cons"
-00000001000730f4	leaq	0xfdd8(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Dependency/peg-markdown-highlight/pmh_parser.c"
+00000001000730f4	leaq	0xfdd8(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Dependency/peg-markdown-highlight/pmh_parser.c"
 00000001000730fb	leaq	0xfe39(%rip), %rcx              ## literal pool for: "elem != NULL"
 0000000100073102	movl	$0x2a6, %edx                    ## imm = 0x2A6
 0000000100073107	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 000000010007310c	pushq	%rbp
 000000010007310d	movq	%rsp, %rbp
 0000000100073110	leaq	0xfe1f(%rip), %rdi              ## literal pool for: "cons"
-0000000100073117	leaq	0xfdb5(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Dependency/peg-markdown-highlight/pmh_parser.c"
+0000000100073117	leaq	0xfdb5(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Dependency/peg-markdown-highlight/pmh_parser.c"
 000000010007311e	leaq	0xfe16(%rip), %rcx              ## literal pool for: "elem != NULL"
 0000000100073125	movl	$0x2a6, %edx                    ## imm = 0x2A6
 000000010007312a	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 000000010007312f	pushq	%rbp
 0000000100073130	movq	%rsp, %rbp
 0000000100073133	leaq	0xfdfc(%rip), %rdi              ## literal pool for: "cons"
-000000010007313a	leaq	0xfd92(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Dependency/peg-markdown-highlight/pmh_parser.c"
+000000010007313a	leaq	0xfd92(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Dependency/peg-markdown-highlight/pmh_parser.c"
 0000000100073141	leaq	0xfdf3(%rip), %rcx              ## literal pool for: "elem != NULL"
 0000000100073148	movl	$0x2a6, %edx                    ## imm = 0x2A6
 000000010007314d	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073152	pushq	%rbp
 0000000100073153	movq	%rsp, %rbp
 0000000100073156	leaq	0xfdd9(%rip), %rdi              ## literal pool for: "cons"
-000000010007315d	leaq	0xfd6f(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Dependency/peg-markdown-highlight/pmh_parser.c"
+000000010007315d	leaq	0xfd6f(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Dependency/peg-markdown-highlight/pmh_parser.c"
 0000000100073164	leaq	0xfdd0(%rip), %rcx              ## literal pool for: "elem != NULL"
 000000010007316b	movl	$0x2a6, %edx                    ## imm = 0x2A6
 0000000100073170	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073175	pushq	%rbp
 0000000100073176	movq	%rsp, %rbp
 0000000100073179	leaq	0xfdb6(%rip), %rdi              ## literal pool for: "cons"
-0000000100073180	leaq	0xfd4c(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Dependency/peg-markdown-highlight/pmh_parser.c"
+0000000100073180	leaq	0xfd4c(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Dependency/peg-markdown-highlight/pmh_parser.c"
 0000000100073187	leaq	0xfdad(%rip), %rcx              ## literal pool for: "elem != NULL"
 000000010007318e	movl	$0x2a6, %edx                    ## imm = 0x2A6
 0000000100073193	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073198	pushq	%rbp
 0000000100073199	movq	%rsp, %rbp
 000000010007319c	leaq	0xfd93(%rip), %rdi              ## literal pool for: "cons"
-00000001000731a3	leaq	0xfd29(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Dependency/peg-markdown-highlight/pmh_parser.c"
+00000001000731a3	leaq	0xfd29(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Dependency/peg-markdown-highlight/pmh_parser.c"
 00000001000731aa	leaq	0xfd8a(%rip), %rcx              ## literal pool for: "elem != NULL"
 00000001000731b1	movl	$0x2a6, %edx                    ## imm = 0x2A6
 00000001000731b6	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 00000001000731bb	pushq	%rbp
 00000001000731bc	movq	%rsp, %rbp
 00000001000731bf	leaq	0xfd70(%rip), %rdi              ## literal pool for: "cons"
-00000001000731c6	leaq	0xfd06(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Dependency/peg-markdown-highlight/pmh_parser.c"
+00000001000731c6	leaq	0xfd06(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Dependency/peg-markdown-highlight/pmh_parser.c"
 00000001000731cd	leaq	0xfd67(%rip), %rcx              ## literal pool for: "elem != NULL"
 00000001000731d4	movl	$0x2a6, %edx                    ## imm = 0x2A6
 00000001000731d9	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 00000001000731de	pushq	%rbp
 00000001000731df	movq	%rsp, %rbp
 00000001000731e2	leaq	0xfd4d(%rip), %rdi              ## literal pool for: "cons"
-00000001000731e9	leaq	0xfce3(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Dependency/peg-markdown-highlight/pmh_parser.c"
+00000001000731e9	leaq	0xfce3(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Dependency/peg-markdown-highlight/pmh_parser.c"
 00000001000731f0	leaq	0xfd44(%rip), %rcx              ## literal pool for: "elem != NULL"
 00000001000731f7	movl	$0x2a6, %edx                    ## imm = 0x2A6
 00000001000731fc	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073201	pushq	%rbp
 0000000100073202	movq	%rsp, %rbp
 0000000100073205	leaq	0xfd2a(%rip), %rdi              ## literal pool for: "cons"
-000000010007320c	leaq	0xfcc0(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Dependency/peg-markdown-highlight/pmh_parser.c"
+000000010007320c	leaq	0xfcc0(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Dependency/peg-markdown-highlight/pmh_parser.c"
 0000000100073213	leaq	0xfd21(%rip), %rcx              ## literal pool for: "elem != NULL"
 000000010007321a	movl	$0x2a6, %edx                    ## imm = 0x2A6
 000000010007321f	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073224	pushq	%rbp
 0000000100073225	movq	%rsp, %rbp
 0000000100073228	leaq	0xfd07(%rip), %rdi              ## literal pool for: "cons"
-000000010007322f	leaq	0xfc9d(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Dependency/peg-markdown-highlight/pmh_parser.c"
+000000010007322f	leaq	0xfc9d(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Dependency/peg-markdown-highlight/pmh_parser.c"
 0000000100073236	leaq	0xfcfe(%rip), %rcx              ## literal pool for: "elem != NULL"
 000000010007323d	movl	$0x2a6, %edx                    ## imm = 0x2A6
 0000000100073242	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073247	pushq	%rbp
 0000000100073248	movq	%rsp, %rbp
 000000010007324b	leaq	0xfce4(%rip), %rdi              ## literal pool for: "cons"
-0000000100073252	leaq	0xfc7a(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Dependency/peg-markdown-highlight/pmh_parser.c"
+0000000100073252	leaq	0xfc7a(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Dependency/peg-markdown-highlight/pmh_parser.c"
 0000000100073259	leaq	0xfcdb(%rip), %rcx              ## literal pool for: "elem != NULL"
 0000000100073260	movl	$0x2a6, %edx                    ## imm = 0x2A6
 0000000100073265	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 000000010007326a	pushq	%rbp
 000000010007326b	movq	%rsp, %rbp
 000000010007326e	leaq	0x102f4(%rip), %rdi             ## literal pool for: "yaml_parser_initialize"
-0000000100073275	leaq	0x10304(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+0000000100073275	leaq	0x10304(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 000000010007327c	leaq	0x10339(%rip), %rcx             ## literal pool for: "parser"
 0000000100073283	movl	$0xad, %edx
 0000000100073288	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 000000010007328d	pushq	%rbp
 000000010007328e	movq	%rsp, %rbp
 0000000100073291	leaq	0x1032b(%rip), %rdi             ## literal pool for: "yaml_parser_delete"
-0000000100073298	leaq	0x102e1(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+0000000100073298	leaq	0x102e1(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 000000010007329f	leaq	0x10316(%rip), %rcx             ## literal pool for: "parser"
 00000001000732a6	movl	$0xd8, %edx
 00000001000732ab	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 00000001000732b0	pushq	%rbp
 00000001000732b1	movq	%rsp, %rbp
 00000001000732b4	leaq	0x1050b(%rip), %rdi             ## literal pool for: "yaml_token_delete"
-00000001000732bb	leaq	0x102be(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+00000001000732bb	leaq	0x102be(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 00000001000732c2	leaq	0x1050f(%rip), %rcx             ## literal pool for: "token"
 00000001000732c9	movl	$0x244, %edx                    ## imm = 0x244
 00000001000732ce	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 00000001000732d3	pushq	%rbp
 00000001000732d4	movq	%rsp, %rbp
 00000001000732d7	leaq	0x102f8(%rip), %rdi             ## literal pool for: "yaml_parser_set_input_string"
-00000001000732de	leaq	0x1029b(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+00000001000732de	leaq	0x1029b(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 00000001000732e5	leaq	0x102d0(%rip), %rcx             ## literal pool for: "parser"
 00000001000732ec	movl	$0x11e, %edx                    ## imm = 0x11E
 00000001000732f1	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 00000001000732f6	pushq	%rbp
 00000001000732f7	movq	%rsp, %rbp
 00000001000732fa	leaq	0x102d5(%rip), %rdi             ## literal pool for: "yaml_parser_set_input_string"
-0000000100073301	leaq	0x10278(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+0000000100073301	leaq	0x10278(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 0000000100073308	leaq	0x102fa(%rip), %rcx             ## literal pool for: "input"
 000000010007330f	movl	$0x120, %edx                    ## imm = 0x120
 0000000100073314	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073319	pushq	%rbp
 000000010007331a	movq	%rsp, %rbp
 000000010007331d	leaq	0x102b2(%rip), %rdi             ## literal pool for: "yaml_parser_set_input_string"
-0000000100073324	leaq	0x10255(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+0000000100073324	leaq	0x10255(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 000000010007332b	leaq	0x102c1(%rip), %rcx             ## literal pool for: "!parser->read_handler"
 0000000100073332	movl	$0x11f, %edx                    ## imm = 0x11F
 0000000100073337	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 000000010007333c	pushq	%rbp
 000000010007333d	movq	%rsp, %rbp
 0000000100073340	leaq	0x102c8(%rip), %rdi             ## literal pool for: "yaml_parser_set_input_file"
-0000000100073347	leaq	0x10232(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+0000000100073347	leaq	0x10232(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 000000010007334e	leaq	0x10267(%rip), %rcx             ## literal pool for: "parser"
 0000000100073355	movl	$0x131, %edx                    ## imm = 0x131
 000000010007335a	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 000000010007335f	pushq	%rbp
 0000000100073360	movq	%rsp, %rbp
 0000000100073363	leaq	0x102a5(%rip), %rdi             ## literal pool for: "yaml_parser_set_input_file"
-000000010007336a	leaq	0x1020f(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+000000010007336a	leaq	0x1020f(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 0000000100073371	leaq	0x102b2(%rip), %rcx             ## literal pool for: "file"
 0000000100073378	movl	$0x133, %edx                    ## imm = 0x133
 000000010007337d	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073382	pushq	%rbp
 0000000100073383	movq	%rsp, %rbp
 0000000100073386	leaq	0x10282(%rip), %rdi             ## literal pool for: "yaml_parser_set_input_file"
-000000010007338d	leaq	0x101ec(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+000000010007338d	leaq	0x101ec(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 0000000100073394	leaq	0x10258(%rip), %rcx             ## literal pool for: "!parser->read_handler"
 000000010007339b	movl	$0x132, %edx                    ## imm = 0x132
 00000001000733a0	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 00000001000733a5	pushq	%rbp
 00000001000733a6	movq	%rsp, %rbp
 00000001000733a9	leaq	0x1027f(%rip), %rdi             ## literal pool for: "yaml_parser_set_input"
-00000001000733b0	leaq	0x101c9(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+00000001000733b0	leaq	0x101c9(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 00000001000733b7	leaq	0x101fe(%rip), %rcx             ## literal pool for: "parser"
 00000001000733be	movl	$0x143, %edx                    ## imm = 0x143
 00000001000733c3	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 00000001000733c8	pushq	%rbp
 00000001000733c9	movq	%rsp, %rbp
 00000001000733cc	leaq	0x1025c(%rip), %rdi             ## literal pool for: "yaml_parser_set_input"
-00000001000733d3	leaq	0x101a6(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+00000001000733d3	leaq	0x101a6(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 00000001000733da	leaq	0x10264(%rip), %rcx             ## literal pool for: "handler"
 00000001000733e1	movl	$0x145, %edx                    ## imm = 0x145
 00000001000733e6	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 00000001000733eb	pushq	%rbp
 00000001000733ec	movq	%rsp, %rbp
 00000001000733ef	leaq	0x10239(%rip), %rdi             ## literal pool for: "yaml_parser_set_input"
-00000001000733f6	leaq	0x10183(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+00000001000733f6	leaq	0x10183(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 00000001000733fd	leaq	0x101ef(%rip), %rcx             ## literal pool for: "!parser->read_handler"
 0000000100073404	movl	$0x144, %edx                    ## imm = 0x144
 0000000100073409	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 000000010007340e	pushq	%rbp
 000000010007340f	movq	%rsp, %rbp
 0000000100073412	leaq	0x10234(%rip), %rdi             ## literal pool for: "yaml_parser_set_encoding"
-0000000100073419	leaq	0x10160(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+0000000100073419	leaq	0x10160(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 0000000100073420	leaq	0x10195(%rip), %rcx             ## literal pool for: "parser"
 0000000100073427	movl	$0x152, %edx                    ## imm = 0x152
 000000010007342c	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073431	pushq	%rbp
 0000000100073432	movq	%rsp, %rbp
 0000000100073435	leaq	0x10211(%rip), %rdi             ## literal pool for: "yaml_parser_set_encoding"
-000000010007343c	leaq	0x1013d(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+000000010007343c	leaq	0x1013d(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 0000000100073443	leaq	0x1021c(%rip), %rcx             ## literal pool for: "!parser->encoding"
 000000010007344a	movl	$0x153, %edx                    ## imm = 0x153
 000000010007344f	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073454	pushq	%rbp
 0000000100073455	movq	%rsp, %rbp
 0000000100073458	leaq	0x10219(%rip), %rdi             ## literal pool for: "yaml_emitter_initialize"
-000000010007345f	leaq	0x1011a(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+000000010007345f	leaq	0x1011a(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 0000000100073466	leaq	0x10223(%rip), %rcx             ## literal pool for: "emitter"
 000000010007346d	movl	$0x15f, %edx                    ## imm = 0x15F
 0000000100073472	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073477	pushq	%rbp
 0000000100073478	movq	%rsp, %rbp
 000000010007347b	leaq	0x10216(%rip), %rdi             ## literal pool for: "yaml_emitter_delete"
-0000000100073482	leaq	0x100f7(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+0000000100073482	leaq	0x100f7(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 0000000100073489	leaq	0x10200(%rip), %rcx             ## literal pool for: "emitter"
 0000000100073490	movl	$0x184, %edx                    ## imm = 0x184
 0000000100073495	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 000000010007349a	pushq	%rbp
 000000010007349b	movq	%rsp, %rbp
 000000010007349e	leaq	0x10528(%rip), %rdi             ## literal pool for: "yaml_event_delete"
-00000001000734a5	leaq	0x100d4(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+00000001000734a5	leaq	0x100d4(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 00000001000734ac	leaq	0x1034e(%rip), %rcx             ## literal pool for: "event"
 00000001000734b3	movl	$0x3d7, %edx                    ## imm = 0x3D7
 00000001000734b8	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 00000001000734bd	pushq	%rbp
 00000001000734be	movq	%rsp, %rbp
 00000001000734c1	leaq	0x101e4(%rip), %rdi             ## literal pool for: "yaml_emitter_set_output_string"
-00000001000734c8	leaq	0x100b1(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+00000001000734c8	leaq	0x100b1(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 00000001000734cf	leaq	0x101ba(%rip), %rcx             ## literal pool for: "emitter"
 00000001000734d6	movl	$0x1c6, %edx                    ## imm = 0x1C6
 00000001000734db	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 00000001000734e0	pushq	%rbp
 00000001000734e1	movq	%rsp, %rbp
 00000001000734e4	leaq	0x101c1(%rip), %rdi             ## literal pool for: "yaml_emitter_set_output_string"
-00000001000734eb	leaq	0x1008e(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+00000001000734eb	leaq	0x1008e(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 00000001000734f2	leaq	0x101ea(%rip), %rcx             ## literal pool for: "output"
 00000001000734f9	movl	$0x1c8, %edx                    ## imm = 0x1C8
 00000001000734fe	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073503	pushq	%rbp
 0000000100073504	movq	%rsp, %rbp
 0000000100073507	leaq	0x1019e(%rip), %rdi             ## literal pool for: "yaml_emitter_set_output_string"
-000000010007350e	leaq	0x1006b(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+000000010007350e	leaq	0x1006b(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 0000000100073515	leaq	0x101af(%rip), %rcx             ## literal pool for: "!emitter->write_handler"
 000000010007351c	movl	$0x1c7, %edx                    ## imm = 0x1C7
 0000000100073521	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073526	pushq	%rbp
 0000000100073527	movq	%rsp, %rbp
 000000010007352a	leaq	0x101b9(%rip), %rdi             ## literal pool for: "yaml_emitter_set_output_file"
-0000000100073531	leaq	0x10048(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+0000000100073531	leaq	0x10048(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 0000000100073538	leaq	0x10151(%rip), %rcx             ## literal pool for: "emitter"
 000000010007353f	movl	$0x1da, %edx                    ## imm = 0x1DA
 0000000100073544	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073549	pushq	%rbp
 000000010007354a	movq	%rsp, %rbp
 000000010007354d	leaq	0x10196(%rip), %rdi             ## literal pool for: "yaml_emitter_set_output_file"
-0000000100073554	leaq	0x10025(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+0000000100073554	leaq	0x10025(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 000000010007355b	leaq	0x100c8(%rip), %rcx             ## literal pool for: "file"
 0000000100073562	movl	$0x1dc, %edx                    ## imm = 0x1DC
 0000000100073567	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 000000010007356c	pushq	%rbp
 000000010007356d	movq	%rsp, %rbp
 0000000100073570	leaq	0x10173(%rip), %rdi             ## literal pool for: "yaml_emitter_set_output_file"
-0000000100073577	leaq	0x10002(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+0000000100073577	leaq	0x10002(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 000000010007357e	leaq	0x10146(%rip), %rcx             ## literal pool for: "!emitter->write_handler"
 0000000100073585	movl	$0x1db, %edx                    ## imm = 0x1DB
 000000010007358a	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 000000010007358f	pushq	%rbp
 0000000100073590	movq	%rsp, %rbp
 0000000100073593	leaq	0x1016d(%rip), %rdi             ## literal pool for: "yaml_emitter_set_output"
-000000010007359a	leaq	0xffdf(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+000000010007359a	leaq	0xffdf(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 00000001000735a1	leaq	0x100e8(%rip), %rcx             ## literal pool for: "emitter"
 00000001000735a8	movl	$0x1ec, %edx                    ## imm = 0x1EC
 00000001000735ad	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 00000001000735b2	pushq	%rbp
 00000001000735b3	movq	%rsp, %rbp
 00000001000735b6	leaq	0x1014a(%rip), %rdi             ## literal pool for: "yaml_emitter_set_output"
-00000001000735bd	leaq	0xffbc(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+00000001000735bd	leaq	0xffbc(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 00000001000735c4	leaq	0x1007a(%rip), %rcx             ## literal pool for: "handler"
 00000001000735cb	movl	$0x1ee, %edx                    ## imm = 0x1EE
 00000001000735d0	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 00000001000735d5	pushq	%rbp
 00000001000735d6	movq	%rsp, %rbp
 00000001000735d9	leaq	0x10127(%rip), %rdi             ## literal pool for: "yaml_emitter_set_output"
-00000001000735e0	leaq	0xff99(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+00000001000735e0	leaq	0xff99(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 00000001000735e7	leaq	0x100dd(%rip), %rcx             ## literal pool for: "!emitter->write_handler"
 00000001000735ee	movl	$0x1ed, %edx                    ## imm = 0x1ED
 00000001000735f3	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 00000001000735f8	pushq	%rbp
 00000001000735f9	movq	%rsp, %rbp
 00000001000735fc	leaq	0x1011c(%rip), %rdi             ## literal pool for: "yaml_emitter_set_encoding"
-0000000100073603	leaq	0xff76(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+0000000100073603	leaq	0xff76(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 000000010007360a	leaq	0x1007f(%rip), %rcx             ## literal pool for: "emitter"
 0000000100073611	movl	$0x1fb, %edx                    ## imm = 0x1FB
 0000000100073616	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 000000010007361b	pushq	%rbp
 000000010007361c	movq	%rsp, %rbp
 000000010007361f	leaq	0x100f9(%rip), %rdi             ## literal pool for: "yaml_emitter_set_encoding"
-0000000100073626	leaq	0xff53(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+0000000100073626	leaq	0xff53(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 000000010007362d	leaq	0x10105(%rip), %rcx             ## literal pool for: "!emitter->encoding"
 0000000100073634	movl	$0x1fc, %edx                    ## imm = 0x1FC
 0000000100073639	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 000000010007363e	pushq	%rbp
 000000010007363f	movq	%rsp, %rbp
 0000000100073642	leaq	0x10103(%rip), %rdi             ## literal pool for: "yaml_emitter_set_canonical"
-0000000100073649	leaq	0xff30(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+0000000100073649	leaq	0xff30(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 0000000100073650	leaq	0x10039(%rip), %rcx             ## literal pool for: "emitter"
 0000000100073657	movl	$0x208, %edx                    ## imm = 0x208
 000000010007365c	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073661	pushq	%rbp
 0000000100073662	movq	%rsp, %rbp
 0000000100073665	leaq	0x100fb(%rip), %rdi             ## literal pool for: "yaml_emitter_set_indent"
-000000010007366c	leaq	0xff0d(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+000000010007366c	leaq	0xff0d(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 0000000100073673	leaq	0x10016(%rip), %rcx             ## literal pool for: "emitter"
 000000010007367a	movl	$0x214, %edx                    ## imm = 0x214
 000000010007367f	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073684	pushq	%rbp
 0000000100073685	movq	%rsp, %rbp
 0000000100073688	leaq	0x100f0(%rip), %rdi             ## literal pool for: "yaml_emitter_set_width"
-000000010007368f	leaq	0xfeea(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+000000010007368f	leaq	0xfeea(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 0000000100073696	leaq	0xfff3(%rip), %rcx              ## literal pool for: "emitter"
 000000010007369d	movl	$0x220, %edx                    ## imm = 0x220
 00000001000736a2	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 00000001000736a7	pushq	%rbp
 00000001000736a8	movq	%rsp, %rbp
 00000001000736ab	leaq	0x100e4(%rip), %rdi             ## literal pool for: "yaml_emitter_set_unicode"
-00000001000736b2	leaq	0xfec7(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+00000001000736b2	leaq	0xfec7(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 00000001000736b9	leaq	0xffd0(%rip), %rcx              ## literal pool for: "emitter"
 00000001000736c0	movl	$0x22c, %edx                    ## imm = 0x22C
 00000001000736c5	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 00000001000736ca	pushq	%rbp
 00000001000736cb	movq	%rsp, %rbp
 00000001000736ce	leaq	0x100da(%rip), %rdi             ## literal pool for: "yaml_emitter_set_break"
-00000001000736d5	leaq	0xfea4(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+00000001000736d5	leaq	0xfea4(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 00000001000736dc	leaq	0xffad(%rip), %rcx              ## literal pool for: "emitter"
 00000001000736e3	movl	$0x238, %edx                    ## imm = 0x238
 00000001000736e8	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 00000001000736ed	pushq	%rbp
 00000001000736ee	movq	%rsp, %rbp
 00000001000736f1	leaq	0x100e6(%rip), %rdi             ## literal pool for: "yaml_stream_start_event_initialize"
-00000001000736f8	leaq	0xfe81(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+00000001000736f8	leaq	0xfe81(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 00000001000736ff	leaq	0x100fb(%rip), %rcx             ## literal pool for: "event"
 0000000100073706	movl	$0x29c, %edx                    ## imm = 0x29C
 000000010007370b	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073710	pushq	%rbp
 0000000100073711	movq	%rsp, %rbp
 0000000100073714	leaq	0x100ec(%rip), %rdi             ## literal pool for: "yaml_stream_end_event_initialize"
-000000010007371b	leaq	0xfe5e(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+000000010007371b	leaq	0xfe5e(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 0000000100073722	leaq	0x100d8(%rip), %rcx             ## literal pool for: "event"
 0000000100073729	movl	$0x2ac, %edx                    ## imm = 0x2AC
 000000010007372e	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073733	pushq	%rbp
 0000000100073734	movq	%rsp, %rbp
 0000000100073737	leaq	0x100ea(%rip), %rdi             ## literal pool for: "yaml_document_start_event_initialize"
-000000010007373e	leaq	0xfe3b(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+000000010007373e	leaq	0xfe3b(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 0000000100073745	leaq	0x100b5(%rip), %rcx             ## literal pool for: "event"
 000000010007374c	movl	$0x2ca, %edx                    ## imm = 0x2CA
 0000000100073751	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073756	pushq	%rbp
 0000000100073757	movq	%rsp, %rbp
 000000010007375a	leaq	0x100c7(%rip), %rdi             ## literal pool for: "yaml_document_start_event_initialize"
-0000000100073761	leaq	0xfe18(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+0000000100073761	leaq	0xfe18(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 0000000100073768	leaq	0x100de(%rip), %rcx             ## literal pool for: "(tag_directives_start && tag_directives_end) || (tag_directives_start == tag_directives_end)"
 000000010007376f	movl	$0x2cc, %edx                    ## imm = 0x2CC
 0000000100073774	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073779	pushq	%rbp
 000000010007377a	movq	%rsp, %rbp
 000000010007377d	leaq	0x100a4(%rip), %rdi             ## literal pool for: "yaml_document_start_event_initialize"
-0000000100073784	leaq	0xfdf5(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+0000000100073784	leaq	0xfdf5(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 000000010007378b	leaq	0x10118(%rip), %rcx             ## literal pool for: "tag_directive->handle"
 0000000100073792	movl	$0x2dc, %edx                    ## imm = 0x2DC
 0000000100073797	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 000000010007379c	pushq	%rbp
 000000010007379d	movq	%rsp, %rbp
 00000001000737a0	leaq	0x10081(%rip), %rdi             ## literal pool for: "yaml_document_start_event_initialize"
-00000001000737a7	leaq	0xfdd2(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+00000001000737a7	leaq	0xfdd2(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 00000001000737ae	leaq	0x1010b(%rip), %rcx             ## literal pool for: "tag_directive->prefix"
 00000001000737b5	movl	$0x2dd, %edx                    ## imm = 0x2DD
 00000001000737ba	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 00000001000737bf	pushq	%rbp
 00000001000737c0	movq	%rsp, %rbp
 00000001000737c3	leaq	0x1010c(%rip), %rdi             ## literal pool for: "yaml_document_end_event_initialize"
-00000001000737ca	leaq	0xfdaf(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+00000001000737ca	leaq	0xfdaf(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 00000001000737d1	leaq	0x10029(%rip), %rcx             ## literal pool for: "event"
 00000001000737d8	movl	$0x30b, %edx                    ## imm = 0x30B
 00000001000737dd	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 00000001000737e2	pushq	%rbp
 00000001000737e3	movq	%rsp, %rbp
 00000001000737e6	leaq	0x1010c(%rip), %rdi             ## literal pool for: "yaml_alias_event_initialize"
-00000001000737ed	leaq	0xfd8c(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+00000001000737ed	leaq	0xfd8c(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 00000001000737f4	leaq	0x10006(%rip), %rcx             ## literal pool for: "event"
 00000001000737fb	movl	$0x31c, %edx                    ## imm = 0x31C
 0000000100073800	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073805	pushq	%rbp
 0000000100073806	movq	%rsp, %rbp
 0000000100073809	leaq	0x100e9(%rip), %rdi             ## literal pool for: "yaml_alias_event_initialize"
-0000000100073810	leaq	0xfd69(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+0000000100073810	leaq	0xfd69(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 0000000100073817	leaq	0x100f7(%rip), %rcx             ## literal pool for: "anchor"
 000000010007381e	movl	$0x31d, %edx                    ## imm = 0x31D
 0000000100073823	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073828	pushq	%rbp
 0000000100073829	movq	%rsp, %rbp
 000000010007382c	leaq	0x100e9(%rip), %rdi             ## literal pool for: "yaml_scalar_event_initialize"
-0000000100073833	leaq	0xfd46(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+0000000100073833	leaq	0xfd46(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 000000010007383a	leaq	0xffc0(%rip), %rcx              ## literal pool for: "event"
 0000000100073841	movl	$0x33a, %edx                    ## imm = 0x33A
 0000000100073846	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 000000010007384b	pushq	%rbp
 000000010007384c	movq	%rsp, %rbp
 000000010007384f	leaq	0x100c6(%rip), %rdi             ## literal pool for: "yaml_scalar_event_initialize"
-0000000100073856	leaq	0xfd23(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+0000000100073856	leaq	0xfd23(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 000000010007385d	leaq	0x100d5(%rip), %rcx             ## literal pool for: "value"
 0000000100073864	movl	$0x33b, %edx                    ## imm = 0x33B
 0000000100073869	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 000000010007386e	pushq	%rbp
 000000010007386f	movq	%rsp, %rbp
 0000000100073872	leaq	0x100c6(%rip), %rdi             ## literal pool for: "yaml_sequence_start_event_initialize"
-0000000100073879	leaq	0xfd00(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+0000000100073879	leaq	0xfd00(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 0000000100073880	leaq	0xff7a(%rip), %rcx              ## literal pool for: "event"
 0000000100073887	movl	$0x36d, %edx                    ## imm = 0x36D
 000000010007388c	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073891	pushq	%rbp
 0000000100073892	movq	%rsp, %rbp
 0000000100073895	leaq	0x100c8(%rip), %rdi             ## literal pool for: "yaml_sequence_end_event_initialize"
-000000010007389c	leaq	0xfcdd(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+000000010007389c	leaq	0xfcdd(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 00000001000738a3	leaq	0xff57(%rip), %rcx              ## literal pool for: "event"
 00000001000738aa	movl	$0x390, %edx                    ## imm = 0x390
 00000001000738af	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 00000001000738b4	pushq	%rbp
 00000001000738b5	movq	%rsp, %rbp
 00000001000738b8	leaq	0x100c8(%rip), %rdi             ## literal pool for: "yaml_mapping_start_event_initialize"
-00000001000738bf	leaq	0xfcba(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+00000001000738bf	leaq	0xfcba(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 00000001000738c6	leaq	0xff34(%rip), %rcx              ## literal pool for: "event"
 00000001000738cd	movl	$0x3a4, %edx                    ## imm = 0x3A4
 00000001000738d2	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 00000001000738d7	pushq	%rbp
 00000001000738d8	movq	%rsp, %rbp
 00000001000738db	leaq	0x100c9(%rip), %rdi             ## literal pool for: "yaml_mapping_end_event_initialize"
-00000001000738e2	leaq	0xfc97(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+00000001000738e2	leaq	0xfc97(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 00000001000738e9	leaq	0xff11(%rip), %rcx              ## literal pool for: "event"
 00000001000738f0	movl	$0x3c7, %edx                    ## imm = 0x3C7
 00000001000738f5	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 00000001000738fa	pushq	%rbp
 00000001000738fb	movq	%rsp, %rbp
 00000001000738fe	leaq	0x100da(%rip), %rdi             ## literal pool for: "yaml_document_initialize"
-0000000100073905	leaq	0xfc74(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+0000000100073905	leaq	0xfc74(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 000000010007390c	leaq	0xdec6(%rip), %rcx              ## literal pool for: "document"
 0000000100073913	movl	$0x41d, %edx                    ## imm = 0x41D
 0000000100073918	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 000000010007391d	pushq	%rbp
 000000010007391e	movq	%rsp, %rbp
 0000000100073921	leaq	0x100b7(%rip), %rdi             ## literal pool for: "yaml_document_initialize"
-0000000100073928	leaq	0xfc51(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+0000000100073928	leaq	0xfc51(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 000000010007392f	leaq	0xff17(%rip), %rcx              ## literal pool for: "(tag_directives_start && tag_directives_end) || (tag_directives_start == tag_directives_end)"
 0000000100073936	movl	$0x41f, %edx                    ## imm = 0x41F
 000000010007393b	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073940	pushq	%rbp
 0000000100073941	movq	%rsp, %rbp
 0000000100073944	leaq	0x10094(%rip), %rdi             ## literal pool for: "yaml_document_initialize"
-000000010007394b	leaq	0xfc2e(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+000000010007394b	leaq	0xfc2e(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 0000000100073952	leaq	0xff51(%rip), %rcx              ## literal pool for: "tag_directive->handle"
 0000000100073959	movl	$0x431, %edx                    ## imm = 0x431
 000000010007395e	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073963	pushq	%rbp
 0000000100073964	movq	%rsp, %rbp
 0000000100073967	leaq	0x10071(%rip), %rdi             ## literal pool for: "yaml_document_initialize"
-000000010007396e	leaq	0xfc0b(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+000000010007396e	leaq	0xfc0b(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 0000000100073975	leaq	0xff44(%rip), %rcx              ## literal pool for: "tag_directive->prefix"
 000000010007397c	movl	$0x432, %edx                    ## imm = 0x432
 0000000100073981	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073986	pushq	%rbp
 0000000100073987	movq	%rsp, %rbp
 000000010007398a	leaq	0x10067(%rip), %rdi             ## literal pool for: "yaml_document_delete"
-0000000100073991	leaq	0xfbe8(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+0000000100073991	leaq	0xfbe8(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 0000000100073998	leaq	0xde3a(%rip), %rcx              ## literal pool for: "document"
 000000010007399f	movl	$0x466, %edx                    ## imm = 0x466
 00000001000739a4	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 00000001000739a9	pushq	%rbp
 00000001000739aa	movq	%rsp, %rbp
 00000001000739ad	leaq	0x10044(%rip), %rdi             ## literal pool for: "yaml_document_delete"
-00000001000739b4	leaq	0xfbc5(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+00000001000739b4	leaq	0xfbc5(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 00000001000739bb	leaq	0xf3a8(%rip), %rcx              ## literal pool for: "0"
 00000001000739c2	movl	$0x476, %edx                    ## imm = 0x476
 00000001000739c7	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 00000001000739cc	pushq	%rbp
 00000001000739cd	movq	%rsp, %rbp
 00000001000739d0	leaq	0x10036(%rip), %rdi             ## literal pool for: "yaml_document_get_node"
-00000001000739d7	leaq	0xfba2(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+00000001000739d7	leaq	0xfba2(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 00000001000739de	leaq	0xddf4(%rip), %rcx              ## literal pool for: "document"
 00000001000739e5	movl	$0x48e, %edx                    ## imm = 0x48E
 00000001000739ea	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 00000001000739ef	pushq	%rbp
 00000001000739f0	movq	%rsp, %rbp
 00000001000739f3	leaq	0x1002a(%rip), %rdi             ## literal pool for: "yaml_document_get_root_node"
-00000001000739fa	leaq	0xfb7f(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+00000001000739fa	leaq	0xfb7f(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 0000000100073a01	leaq	0xddd1(%rip), %rcx              ## literal pool for: "document"
 0000000100073a08	movl	$0x49d, %edx                    ## imm = 0x49D
 0000000100073a0d	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073a12	pushq	%rbp
 0000000100073a13	movq	%rsp, %rbp
 0000000100073a16	leaq	0x10023(%rip), %rdi             ## literal pool for: "yaml_document_add_scalar"
-0000000100073a1d	leaq	0xfb5c(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+0000000100073a1d	leaq	0xfb5c(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 0000000100073a24	leaq	0xddae(%rip), %rcx              ## literal pool for: "document"
 0000000100073a2b	movl	$0x4b6, %edx                    ## imm = 0x4B6
 0000000100073a30	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073a35	pushq	%rbp
 0000000100073a36	movq	%rsp, %rbp
 0000000100073a39	leaq	0x10000(%rip), %rdi             ## literal pool for: "yaml_document_add_scalar"
-0000000100073a40	leaq	0xfb39(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+0000000100073a40	leaq	0xfb39(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 0000000100073a47	leaq	0xfeeb(%rip), %rcx              ## literal pool for: "value"
 0000000100073a4e	movl	$0x4b7, %edx                    ## imm = 0x4B7
 0000000100073a53	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073a58	pushq	%rbp
 0000000100073a59	movq	%rsp, %rbp
 0000000100073a5c	leaq	0x1000c(%rip), %rdi             ## literal pool for: "yaml_document_add_sequence"
-0000000100073a63	leaq	0xfb16(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+0000000100073a63	leaq	0xfb16(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 0000000100073a6a	leaq	0xdd68(%rip), %rcx              ## literal pool for: "document"
 0000000100073a71	movl	$0x4eb, %edx                    ## imm = 0x4EB
 0000000100073a76	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073a7b	pushq	%rbp
 0000000100073a7c	movq	%rsp, %rbp
 0000000100073a7f	leaq	0x1001a(%rip), %rdi             ## literal pool for: "yaml_document_add_mapping"
-0000000100073a86	leaq	0xfaf3(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+0000000100073a86	leaq	0xfaf3(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 0000000100073a8d	leaq	0xdd45(%rip), %rcx              ## literal pool for: "document"
 0000000100073a94	movl	$0x518, %edx                    ## imm = 0x518
 0000000100073a99	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073a9e	pushq	%rbp
 0000000100073a9f	movq	%rsp, %rbp
 0000000100073aa2	leaq	0x10027(%rip), %rdi             ## literal pool for: "yaml_document_append_sequence_item"
-0000000100073aa9	leaq	0xfad0(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+0000000100073aa9	leaq	0xfad0(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 0000000100073ab0	leaq	0xdd22(%rip), %rcx              ## literal pool for: "document"
 0000000100073ab7	movl	$0x53d, %edx                    ## imm = 0x53D
 0000000100073abc	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073ac1	pushq	%rbp
 0000000100073ac2	movq	%rsp, %rbp
 0000000100073ac5	leaq	0x10004(%rip), %rdi             ## literal pool for: "yaml_document_append_sequence_item"
-0000000100073acc	leaq	0xfaad(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+0000000100073acc	leaq	0xfaad(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 0000000100073ad3	leaq	0x10019(%rip), %rcx             ## literal pool for: "sequence > 0 && document->nodes.start + sequence <= document->nodes.top"
 0000000100073ada	movl	$0x53f, %edx                    ## imm = 0x53F
 0000000100073adf	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073ae4	pushq	%rbp
 0000000100073ae5	movq	%rsp, %rbp
 0000000100073ae8	leaq	0xffe1(%rip), %rdi              ## literal pool for: "yaml_document_append_sequence_item"
-0000000100073aef	leaq	0xfa8a(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+0000000100073aef	leaq	0xfa8a(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 0000000100073af6	leaq	0x1007b(%rip), %rcx             ## literal pool for: "item > 0 && document->nodes.start + item <= document->nodes.top"
 0000000100073afd	movl	$0x543, %edx                    ## imm = 0x543
 0000000100073b02	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073b07	pushq	%rbp
 0000000100073b08	movq	%rsp, %rbp
 0000000100073b0b	leaq	0xffbe(%rip), %rdi              ## literal pool for: "yaml_document_append_sequence_item"
-0000000100073b12	leaq	0xfa67(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+0000000100073b12	leaq	0xfa67(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 0000000100073b19	leaq	0x1001b(%rip), %rcx             ## literal pool for: "document->nodes.start[sequence-1].type == YAML_SEQUENCE_NODE"
 0000000100073b20	movl	$0x541, %edx                    ## imm = 0x541
 0000000100073b25	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073b2a	pushq	%rbp
 0000000100073b2b	movq	%rsp, %rbp
 0000000100073b2e	leaq	0x10083(%rip), %rdi             ## literal pool for: "yaml_document_append_mapping_pair"
-0000000100073b35	leaq	0xfa44(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+0000000100073b35	leaq	0xfa44(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 0000000100073b3c	leaq	0xdc96(%rip), %rcx              ## literal pool for: "document"
 0000000100073b43	movl	$0x55b, %edx                    ## imm = 0x55B
 0000000100073b48	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073b4d	pushq	%rbp
 0000000100073b4e	movq	%rsp, %rbp
 0000000100073b51	leaq	0x10060(%rip), %rdi             ## literal pool for: "yaml_document_append_mapping_pair"
-0000000100073b58	leaq	0xfa21(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+0000000100073b58	leaq	0xfa21(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 0000000100073b5f	leaq	0x10074(%rip), %rcx             ## literal pool for: "mapping > 0 && document->nodes.start + mapping <= document->nodes.top"
 0000000100073b66	movl	$0x55d, %edx                    ## imm = 0x55D
 0000000100073b6b	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073b70	pushq	%rbp
 0000000100073b71	movq	%rsp, %rbp
 0000000100073b74	leaq	0x1003d(%rip), %rdi             ## literal pool for: "yaml_document_append_mapping_pair"
-0000000100073b7b	leaq	0xf9fe(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+0000000100073b7b	leaq	0xf9fe(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 0000000100073b82	leaq	0x100d2(%rip), %rcx             ## literal pool for: "key > 0 && document->nodes.start + key <= document->nodes.top"
 0000000100073b89	movl	$0x561, %edx                    ## imm = 0x561
 0000000100073b8e	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073b93	pushq	%rbp
 0000000100073b94	movq	%rsp, %rbp
 0000000100073b97	leaq	0x1001a(%rip), %rdi             ## literal pool for: "yaml_document_append_mapping_pair"
-0000000100073b9e	leaq	0xf9db(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+0000000100073b9e	leaq	0xf9db(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 0000000100073ba5	leaq	0x100ed(%rip), %rcx             ## literal pool for: "value > 0 && document->nodes.start + value <= document->nodes.top"
 0000000100073bac	movl	$0x563, %edx                    ## imm = 0x563
 0000000100073bb1	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073bb6	pushq	%rbp
 0000000100073bb7	movq	%rsp, %rbp
 0000000100073bba	leaq	0xfff7(%rip), %rdi              ## literal pool for: "yaml_document_append_mapping_pair"
-0000000100073bc1	leaq	0xf9b8(%rip), %rsi              ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/api.c"
+0000000100073bc1	leaq	0xf9b8(%rip), %rsi              ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/api.c"
 0000000100073bc8	leaq	0x10051(%rip), %rcx             ## literal pool for: "document->nodes.start[mapping-1].type == YAML_MAPPING_NODE"
 0000000100073bcf	movl	$0x55f, %edx                    ## imm = 0x55F
 0000000100073bd4	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073bd9	pushq	%rbp
 0000000100073bda	movq	%rsp, %rbp
 0000000100073bdd	leaq	0x100f7(%rip), %rdi             ## literal pool for: "yaml_emitter_open"
-0000000100073be4	leaq	0x10102(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/dumper.c"
+0000000100073be4	leaq	0x10102(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/dumper.c"
 0000000100073beb	leaq	0xfa9e(%rip), %rcx              ## literal pool for: "emitter"
 0000000100073bf2	pushq	$0x43
 0000000100073bf4	popq	%rdx
@@ -125851,7 +125851,7 @@ MacDown:
 0000000100073bfa	pushq	%rbp
 0000000100073bfb	movq	%rsp, %rbp
 0000000100073bfe	leaq	0x100d6(%rip), %rdi             ## literal pool for: "yaml_emitter_open"
-0000000100073c05	leaq	0x100e1(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/dumper.c"
+0000000100073c05	leaq	0x100e1(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/dumper.c"
 0000000100073c0c	leaq	0x10119(%rip), %rcx             ## literal pool for: "!emitter->opened"
 0000000100073c13	pushq	$0x44
 0000000100073c15	popq	%rdx
@@ -125859,7 +125859,7 @@ MacDown:
 0000000100073c1b	pushq	%rbp
 0000000100073c1c	movq	%rsp, %rbp
 0000000100073c1f	leaq	0x10117(%rip), %rdi             ## literal pool for: "yaml_emitter_close"
-0000000100073c26	leaq	0x100c0(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/dumper.c"
+0000000100073c26	leaq	0x100c0(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/dumper.c"
 0000000100073c2d	leaq	0xfa5c(%rip), %rcx              ## literal pool for: "emitter"
 0000000100073c34	pushq	$0x5b
 0000000100073c36	popq	%rdx
@@ -125867,7 +125867,7 @@ MacDown:
 0000000100073c3c	pushq	%rbp
 0000000100073c3d	movq	%rsp, %rbp
 0000000100073c40	leaq	0x100f6(%rip), %rdi             ## literal pool for: "yaml_emitter_close"
-0000000100073c47	leaq	0x1009f(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/dumper.c"
+0000000100073c47	leaq	0x1009f(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/dumper.c"
 0000000100073c4e	leaq	0x100fb(%rip), %rcx             ## literal pool for: "emitter->opened"
 0000000100073c55	pushq	$0x5c
 0000000100073c57	popq	%rdx
@@ -125875,7 +125875,7 @@ MacDown:
 0000000100073c5d	pushq	%rbp
 0000000100073c5e	movq	%rsp, %rbp
 0000000100073c61	leaq	0x100f8(%rip), %rdi             ## literal pool for: "yaml_emitter_dump"
-0000000100073c68	leaq	0x1007e(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/dumper.c"
+0000000100073c68	leaq	0x1007e(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/dumper.c"
 0000000100073c6f	leaq	0xfa1a(%rip), %rcx              ## literal pool for: "emitter"
 0000000100073c76	pushq	$0x75
 0000000100073c78	popq	%rdx
@@ -125883,7 +125883,7 @@ MacDown:
 0000000100073c7e	pushq	%rbp
 0000000100073c7f	movq	%rsp, %rbp
 0000000100073c82	leaq	0x100d7(%rip), %rdi             ## literal pool for: "yaml_emitter_dump"
-0000000100073c89	leaq	0x1005d(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/dumper.c"
+0000000100073c89	leaq	0x1005d(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/dumper.c"
 0000000100073c90	leaq	0xdb42(%rip), %rcx              ## literal pool for: "document"
 0000000100073c97	pushq	$0x76
 0000000100073c99	popq	%rdx
@@ -125891,14 +125891,14 @@ MacDown:
 0000000100073c9f	pushq	%rbp
 0000000100073ca0	movq	%rsp, %rbp
 0000000100073ca3	leaq	0x100b6(%rip), %rdi             ## literal pool for: "yaml_emitter_dump"
-0000000100073caa	leaq	0x1003c(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/dumper.c"
+0000000100073caa	leaq	0x1003c(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/dumper.c"
 0000000100073cb1	leaq	0x10098(%rip), %rcx             ## literal pool for: "emitter->opened"
 0000000100073cb8	movl	$0x84, %edx
 0000000100073cbd	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073cc2	pushq	%rbp
 0000000100073cc3	movq	%rsp, %rbp
 0000000100073cc6	leaq	0x100a5(%rip), %rdi             ## literal pool for: "yaml_emitter_dump_node"
-0000000100073ccd	leaq	0x10019(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/dumper.c"
+0000000100073ccd	leaq	0x10019(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/dumper.c"
 0000000100073cd4	leaq	0xf08f(%rip), %rcx              ## literal pool for: "0"
 0000000100073cdb	movl	$0x121, %edx                    ## imm = 0x121
 0000000100073ce0	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
@@ -125908,7 +125908,7 @@ MacDown:
 0000000100073ce8	pushq	%rbp
 0000000100073ce9	movq	%rsp, %rbp
 0000000100073cec	leaq	0x1035a(%rip), %rdi             ## literal pool for: "yaml_parser_load"
-0000000100073cf3	leaq	0x10364(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/loader.c"
+0000000100073cf3	leaq	0x10364(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/loader.c"
 0000000100073cfa	leaq	0xf8bb(%rip), %rcx              ## literal pool for: "parser"
 0000000100073d01	pushq	$0x47
 0000000100073d03	popq	%rdx
@@ -125916,7 +125916,7 @@ MacDown:
 0000000100073d09	pushq	%rbp
 0000000100073d0a	movq	%rsp, %rbp
 0000000100073d0d	leaq	0x10339(%rip), %rdi             ## literal pool for: "yaml_parser_load"
-0000000100073d14	leaq	0x10343(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/loader.c"
+0000000100073d14	leaq	0x10343(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/loader.c"
 0000000100073d1b	leaq	0xdab7(%rip), %rcx              ## literal pool for: "document"
 0000000100073d22	pushq	$0x48
 0000000100073d24	popq	%rdx
@@ -125924,21 +125924,21 @@ MacDown:
 0000000100073d2a	pushq	%rbp
 0000000100073d2b	movq	%rsp, %rbp
 0000000100073d2e	leaq	0x1038e(%rip), %rdi             ## literal pool for: "yaml_parser_load_document"
-0000000100073d35	leaq	0x10322(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/loader.c"
+0000000100073d35	leaq	0x10322(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/loader.c"
 0000000100073d3c	leaq	0x103c9(%rip), %rcx             ## literal pool for: "event.type == YAML_DOCUMENT_END_EVENT"
 0000000100073d43	movl	$0xbb, %edx
 0000000100073d48	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073d4d	pushq	%rbp
 0000000100073d4e	movq	%rsp, %rbp
 0000000100073d51	leaq	0x1036b(%rip), %rdi             ## literal pool for: "yaml_parser_load_document"
-0000000100073d58	leaq	0x102ff(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/loader.c"
+0000000100073d58	leaq	0x102ff(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/loader.c"
 0000000100073d5f	leaq	0x10377(%rip), %rcx             ## literal pool for: "first_event->type == YAML_DOCUMENT_START_EVENT"
 0000000100073d66	movl	$0xa9, %edx
 0000000100073d6b	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073d70	pushq	%rbp
 0000000100073d71	movq	%rsp, %rbp
 0000000100073d74	leaq	0x102d2(%rip), %rdi             ## literal pool for: "yaml_parser_load"
-0000000100073d7b	leaq	0x102dc(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/loader.c"
+0000000100073d7b	leaq	0x102dc(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/loader.c"
 0000000100073d82	leaq	0x10314(%rip), %rcx             ## literal pool for: "event.type == YAML_STREAM_START_EVENT"
 0000000100073d89	pushq	$0x50
 0000000100073d8b	popq	%rdx
@@ -125946,7 +125946,7 @@ MacDown:
 0000000100073d91	pushq	%rbp
 0000000100073d92	movq	%rsp, %rbp
 0000000100073d95	leaq	0x10396(%rip), %rdi             ## literal pool for: "yaml_parser_load_node"
-0000000100073d9c	leaq	0x102bb(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/loader.c"
+0000000100073d9c	leaq	0x102bb(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/loader.c"
 0000000100073da3	leaq	0xefc0(%rip), %rcx              ## literal pool for: "0"
 0000000100073daa	movl	$0xd5, %edx
 0000000100073daf	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
@@ -125955,21 +125955,21 @@ MacDown:
 0000000100073db6	pushq	%rbp
 0000000100073db7	movq	%rsp, %rbp
 0000000100073dba	leaq	0x103d8(%rip), %rdi             ## literal pool for: "yaml_parser_parse"
-0000000100073dc1	leaq	0x103e3(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/parser.c"
+0000000100073dc1	leaq	0x103e3(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/parser.c"
 0000000100073dc8	leaq	0xf7ed(%rip), %rcx              ## literal pool for: "parser"
 0000000100073dcf	movl	$0xac, %edx
 0000000100073dd4	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073dd9	pushq	%rbp
 0000000100073dda	movq	%rsp, %rbp
 0000000100073ddd	leaq	0x103b5(%rip), %rdi             ## literal pool for: "yaml_parser_parse"
-0000000100073de4	leaq	0x103c0(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/parser.c"
+0000000100073de4	leaq	0x103c0(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/parser.c"
 0000000100073deb	leaq	0xfa0f(%rip), %rcx              ## literal pool for: "event"
 0000000100073df2	movl	$0xad, %edx
 0000000100073df7	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073dfc	pushq	%rbp
 0000000100073dfd	movq	%rsp, %rbp
 0000000100073e00	leaq	0x10611(%rip), %rdi             ## literal pool for: "yaml_parser_update_buffer"
-0000000100073e07	leaq	0x10624(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/reader.c"
+0000000100073e07	leaq	0x10624(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/reader.c"
 0000000100073e0e	leaq	0x1065c(%rip), %rcx             ## literal pool for: "parser->read_handler"
 0000000100073e15	movl	$0x92, %edx
 0000000100073e1a	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
@@ -125978,28 +125978,28 @@ MacDown:
 0000000100073e21	pushq	%rbp
 0000000100073e22	movq	%rsp, %rbp
 0000000100073e25	leaq	0x107a0(%rip), %rdi             ## literal pool for: "yaml_parser_scan"
-0000000100073e2c	leaq	0x107aa(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/scanner.c"
+0000000100073e2c	leaq	0x107aa(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/scanner.c"
 0000000100073e33	leaq	0xf782(%rip), %rcx              ## literal pool for: "parser"
 0000000100073e3a	movl	$0x2e8, %edx                    ## imm = 0x2E8
 0000000100073e3f	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073e44	pushq	%rbp
 0000000100073e45	movq	%rsp, %rbp
 0000000100073e48	leaq	0x1077d(%rip), %rdi             ## literal pool for: "yaml_parser_scan"
-0000000100073e4f	leaq	0x10787(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/scanner.c"
+0000000100073e4f	leaq	0x10787(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/scanner.c"
 0000000100073e56	leaq	0xf97b(%rip), %rcx              ## literal pool for: "token"
 0000000100073e5d	movl	$0x2e9, %edx                    ## imm = 0x2E9
 0000000100073e62	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073e67	pushq	%rbp
 0000000100073e68	movq	%rsp, %rbp
 0000000100073e6b	leaq	0x10b22(%rip), %rdi             ## literal pool for: "yaml_parser_save_simple_key"
-0000000100073e72	leaq	0x10764(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/scanner.c"
+0000000100073e72	leaq	0x10764(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/scanner.c"
 0000000100073e79	leaq	0x10b30(%rip), %rcx             ## literal pool for: "parser->simple_key_allowed || !required"
 0000000100073e80	movl	$0x459, %edx                    ## imm = 0x459
 0000000100073e85	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100073e8a	pushq	%rbp
 0000000100073e8b	movq	%rsp, %rbp
 0000000100073e8e	leaq	0x10e35(%rip), %rdi             ## literal pool for: "yaml_emitter_flush"
-0000000100073e95	leaq	0x10e41(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/writer.c"
+0000000100073e95	leaq	0x10e41(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/writer.c"
 0000000100073e9c	leaq	0xf7ed(%rip), %rcx              ## literal pool for: "emitter"
 0000000100073ea3	pushq	$0x24
 0000000100073ea5	popq	%rdx
@@ -126007,7 +126007,7 @@ MacDown:
 0000000100073eab	pushq	%rbp
 0000000100073eac	movq	%rsp, %rbp
 0000000100073eaf	leaq	0x10e14(%rip), %rdi             ## literal pool for: "yaml_emitter_flush"
-0000000100073eb6	leaq	0x10e20(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/writer.c"
+0000000100073eb6	leaq	0x10e20(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/writer.c"
 0000000100073ebd	leaq	0x10e58(%rip), %rcx             ## literal pool for: "emitter->write_handler"
 0000000100073ec4	pushq	$0x25
 0000000100073ec6	popq	%rdx
@@ -126015,7 +126015,7 @@ MacDown:
 0000000100073ecc	pushq	%rbp
 0000000100073ecd	movq	%rsp, %rbp
 0000000100073ed0	leaq	0x10df3(%rip), %rdi             ## literal pool for: "yaml_emitter_flush"
-0000000100073ed7	leaq	0x10dff(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/LibYAML/src/writer.c"
+0000000100073ed7	leaq	0x10dff(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/LibYAML/src/writer.c"
 0000000100073ede	leaq	0x10e4e(%rip), %rcx             ## literal pool for: "emitter->encoding"
 0000000100073ee5	pushq	$0x26
 0000000100073ee7	popq	%rdx
@@ -126056,7 +126056,7 @@ MacDown:
 0000000100073f5c	pushq	%rbp
 0000000100073f5d	movq	%rsp, %rbp
 0000000100073f60	leaq	0x12679(%rip), %rdi             ## literal pool for: "hoedown_buffer_init"
-0000000100073f67	leaq	0x12686(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/hoedown/src/buffer.c"
+0000000100073f67	leaq	0x12686(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/hoedown/src/buffer.c"
 0000000100073f6e	leaq	0x126be(%rip), %rcx             ## literal pool for: "buf"
 0000000100073f75	pushq	$0x37
 0000000100073f77	popq	%rdx
@@ -126064,7 +126064,7 @@ MacDown:
 0000000100073f7d	pushq	%rbp
 0000000100073f7e	movq	%rsp, %rbp
 0000000100073f81	leaq	0x126af(%rip), %rdi             ## literal pool for: "hoedown_buffer_uninit"
-0000000100073f88	leaq	0x12665(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/hoedown/src/buffer.c"
+0000000100073f88	leaq	0x12665(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/hoedown/src/buffer.c"
 0000000100073f8f	leaq	0x126b7(%rip), %rcx             ## literal pool for: "buf && buf->unit"
 0000000100073f96	pushq	$0x44
 0000000100073f98	popq	%rdx
@@ -126072,7 +126072,7 @@ MacDown:
 0000000100073f9e	pushq	%rbp
 0000000100073f9f	movq	%rsp, %rbp
 0000000100073fa2	leaq	0x12637(%rip), %rdi             ## literal pool for: "hoedown_buffer_init"
-0000000100073fa9	leaq	0x12644(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/hoedown/src/buffer.c"
+0000000100073fa9	leaq	0x12644(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/hoedown/src/buffer.c"
 0000000100073fb0	leaq	0x1267c(%rip), %rcx             ## literal pool for: "buf"
 0000000100073fb7	pushq	$0x37
 0000000100073fb9	popq	%rdx
@@ -126080,7 +126080,7 @@ MacDown:
 0000000100073fbf	pushq	%rbp
 0000000100073fc0	movq	%rsp, %rbp
 0000000100073fc3	leaq	0x12694(%rip), %rdi             ## literal pool for: "hoedown_buffer_free"
-0000000100073fca	leaq	0x12623(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/hoedown/src/buffer.c"
+0000000100073fca	leaq	0x12623(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/hoedown/src/buffer.c"
 0000000100073fd1	leaq	0x12675(%rip), %rcx             ## literal pool for: "buf && buf->unit"
 0000000100073fd8	pushq	$0x54
 0000000100073fda	popq	%rdx
@@ -126088,7 +126088,7 @@ MacDown:
 0000000100073fe0	pushq	%rbp
 0000000100073fe1	movq	%rsp, %rbp
 0000000100073fe4	leaq	0x12687(%rip), %rdi             ## literal pool for: "hoedown_buffer_reset"
-0000000100073feb	leaq	0x12602(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/hoedown/src/buffer.c"
+0000000100073feb	leaq	0x12602(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/hoedown/src/buffer.c"
 0000000100073ff2	leaq	0x12654(%rip), %rcx             ## literal pool for: "buf && buf->unit"
 0000000100073ff9	pushq	$0x5f
 0000000100073ffb	popq	%rdx
@@ -126096,7 +126096,7 @@ MacDown:
 0000000100074001	pushq	%rbp
 0000000100074002	movq	%rsp, %rbp
 0000000100074005	leaq	0x1267b(%rip), %rdi             ## literal pool for: "hoedown_buffer_grow"
-000000010007400c	leaq	0x125e1(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/hoedown/src/buffer.c"
+000000010007400c	leaq	0x125e1(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/hoedown/src/buffer.c"
 0000000100074013	leaq	0x12633(%rip), %rcx             ## literal pool for: "buf && buf->unit"
 000000010007401a	pushq	$0x6a
 000000010007401c	popq	%rdx
@@ -126104,7 +126104,7 @@ MacDown:
 0000000100074022	pushq	%rbp
 0000000100074023	movq	%rsp, %rbp
 0000000100074026	leaq	0x1266e(%rip), %rdi             ## literal pool for: "hoedown_buffer_put"
-000000010007402d	leaq	0x125c0(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/hoedown/src/buffer.c"
+000000010007402d	leaq	0x125c0(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/hoedown/src/buffer.c"
 0000000100074034	leaq	0x12612(%rip), %rcx             ## literal pool for: "buf && buf->unit"
 000000010007403b	pushq	$0x7a
 000000010007403d	popq	%rdx
@@ -126112,91 +126112,91 @@ MacDown:
 0000000100074043	pushq	%rbp
 0000000100074044	movq	%rsp, %rbp
 0000000100074047	leaq	0x12660(%rip), %rdi             ## literal pool for: "hoedown_buffer_putc"
-000000010007404e	leaq	0x1259f(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/hoedown/src/buffer.c"
+000000010007404e	leaq	0x1259f(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/hoedown/src/buffer.c"
 0000000100074055	leaq	0x125f1(%rip), %rcx             ## literal pool for: "buf && buf->unit"
 000000010007405c	movl	$0x8c, %edx
 0000000100074061	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100074066	pushq	%rbp
 0000000100074067	movq	%rsp, %rbp
 000000010007406a	leaq	0x12651(%rip), %rdi             ## literal pool for: "hoedown_buffer_putf"
-0000000100074071	leaq	0x1257c(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/hoedown/src/buffer.c"
+0000000100074071	leaq	0x1257c(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/hoedown/src/buffer.c"
 0000000100074078	leaq	0x125ce(%rip), %rcx             ## literal pool for: "buf && buf->unit"
 000000010007407f	movl	$0x98, %edx
 0000000100074084	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100074089	pushq	%rbp
 000000010007408a	movq	%rsp, %rbp
 000000010007408d	leaq	0x12642(%rip), %rdi             ## literal pool for: "hoedown_buffer_set"
-0000000100074094	leaq	0x12559(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/hoedown/src/buffer.c"
+0000000100074094	leaq	0x12559(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/hoedown/src/buffer.c"
 000000010007409b	leaq	0x125ab(%rip), %rcx             ## literal pool for: "buf && buf->unit"
 00000001000740a2	movl	$0xa5, %edx
 00000001000740a7	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 00000001000740ac	pushq	%rbp
 00000001000740ad	movq	%rsp, %rbp
 00000001000740b0	leaq	0x12632(%rip), %rdi             ## literal pool for: "hoedown_buffer_slurp"
-00000001000740b7	leaq	0x12536(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/hoedown/src/buffer.c"
+00000001000740b7	leaq	0x12536(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/hoedown/src/buffer.c"
 00000001000740be	leaq	0x12588(%rip), %rcx             ## literal pool for: "buf && buf->unit"
 00000001000740c5	movl	$0xd4, %edx
 00000001000740ca	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 00000001000740cf	pushq	%rbp
 00000001000740d0	movq	%rsp, %rbp
 00000001000740d3	leaq	0x12624(%rip), %rdi             ## literal pool for: "hoedown_buffer_cstr"
-00000001000740da	leaq	0x12513(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/hoedown/src/buffer.c"
+00000001000740da	leaq	0x12513(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/hoedown/src/buffer.c"
 00000001000740e1	leaq	0x12565(%rip), %rcx             ## literal pool for: "buf && buf->unit"
 00000001000740e8	movl	$0xe2, %edx
 00000001000740ed	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 00000001000740f2	pushq	%rbp
 00000001000740f3	movq	%rsp, %rbp
 00000001000740f6	leaq	0x12615(%rip), %rdi             ## literal pool for: "hoedown_buffer_printf"
-00000001000740fd	leaq	0x124f0(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/hoedown/src/buffer.c"
+00000001000740fd	leaq	0x124f0(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/hoedown/src/buffer.c"
 0000000100074104	leaq	0x12542(%rip), %rcx             ## literal pool for: "buf && buf->unit"
 000000010007410b	movl	$0xf3, %edx
 0000000100074110	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100074115	pushq	%rbp
 0000000100074116	movq	%rsp, %rbp
 0000000100074119	leaq	0x12608(%rip), %rdi             ## literal pool for: "hoedown_buffer_put_utf8"
-0000000100074120	leaq	0x124cd(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/hoedown/src/buffer.c"
+0000000100074120	leaq	0x124cd(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/hoedown/src/buffer.c"
 0000000100074127	leaq	0x1251f(%rip), %rcx             ## literal pool for: "buf && buf->unit"
 000000010007412e	movl	$0x117, %edx                    ## imm = 0x117
 0000000100074133	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 0000000100074138	pushq	%rbp
 0000000100074139	movq	%rsp, %rbp
 000000010007413c	leaq	0x12601(%rip), %rdi             ## literal pool for: "hoedown_document_new"
-0000000100074143	leaq	0x1260f(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/hoedown/src/document.c"
+0000000100074143	leaq	0x1260f(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/hoedown/src/document.c"
 000000010007414a	leaq	0x12649(%rip), %rcx             ## literal pool for: "max_nesting > 0 && renderer"
 0000000100074151	movl	$0xadb, %edx                    ## imm = 0xADB
 0000000100074156	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 000000010007415b	pushq	%rbp
 000000010007415c	movq	%rsp, %rbp
 000000010007415f	leaq	0x12650(%rip), %rdi             ## literal pool for: "hoedown_document_render"
-0000000100074166	leaq	0x125ec(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/hoedown/src/document.c"
+0000000100074166	leaq	0x125ec(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/hoedown/src/document.c"
 000000010007416d	leaq	0x12680(%rip), %rcx             ## literal pool for: "doc->work_bufs[BUFFER_BLOCK].size == 0"
 0000000100074174	movl	$0xb71, %edx                    ## imm = 0xB71
 0000000100074179	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 000000010007417e	pushq	%rbp
 000000010007417f	movq	%rsp, %rbp
 0000000100074182	leaq	0x1262d(%rip), %rdi             ## literal pool for: "hoedown_document_render"
-0000000100074189	leaq	0x125c9(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/hoedown/src/document.c"
+0000000100074189	leaq	0x125c9(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/hoedown/src/document.c"
 0000000100074190	leaq	0x12637(%rip), %rcx             ## literal pool for: "doc->work_bufs[BUFFER_SPAN].size == 0"
 0000000100074197	movl	$0xb70, %edx                    ## imm = 0xB70
 000000010007419c	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 00000001000741a1	pushq	%rbp
 00000001000741a2	movq	%rsp, %rbp
 00000001000741a5	leaq	0x1266f(%rip), %rdi             ## literal pool for: "hoedown_document_render_inline"
-00000001000741ac	leaq	0x125a6(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/hoedown/src/document.c"
+00000001000741ac	leaq	0x125a6(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/hoedown/src/document.c"
 00000001000741b3	leaq	0x1263a(%rip), %rcx             ## literal pool for: "doc->work_bufs[BUFFER_BLOCK].size == 0"
 00000001000741ba	movl	$0xba0, %edx                    ## imm = 0xBA0
 00000001000741bf	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 00000001000741c4	pushq	%rbp
 00000001000741c5	movq	%rsp, %rbp
 00000001000741c8	leaq	0x1264c(%rip), %rdi             ## literal pool for: "hoedown_document_render_inline"
-00000001000741cf	leaq	0x12583(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/hoedown/src/document.c"
+00000001000741cf	leaq	0x12583(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/hoedown/src/document.c"
 00000001000741d6	leaq	0x125f1(%rip), %rcx             ## literal pool for: "doc->work_bufs[BUFFER_SPAN].size == 0"
 00000001000741dd	movl	$0xb9f, %edx                    ## imm = 0xB9F
 00000001000741e2	callq	0x1000743c0                     ## symbol stub for: ___assert_rtn
 00000001000741e7	pushq	%rbp
 00000001000741e8	movq	%rsp, %rbp
 00000001000741eb	leaq	0x12a11(%rip), %rdi             ## literal pool for: "hoedown_stack_init"
-00000001000741f2	leaq	0x12a1d(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/hoedown/src/stack.c"
+00000001000741f2	leaq	0x12a1d(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/hoedown/src/stack.c"
 00000001000741f9	leaq	0x12a54(%rip), %rcx             ## literal pool for: "st"
 0000000100074200	pushq	$0xc
 0000000100074202	popq	%rdx
@@ -126204,7 +126204,7 @@ MacDown:
 0000000100074208	pushq	%rbp
 0000000100074209	movq	%rsp, %rbp
 000000010007420c	leaq	0x12a59(%rip), %rdi             ## literal pool for: "hoedown_stack_grow"
-0000000100074213	leaq	0x129fc(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/hoedown/src/stack.c"
+0000000100074213	leaq	0x129fc(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/hoedown/src/stack.c"
 000000010007421a	leaq	0x12a33(%rip), %rcx             ## literal pool for: "st"
 0000000100074221	pushq	$0x22
 0000000100074223	popq	%rdx
@@ -126212,7 +126212,7 @@ MacDown:
 0000000100074229	pushq	%rbp
 000000010007422a	movq	%rsp, %rbp
 000000010007422d	leaq	0x12a23(%rip), %rdi             ## literal pool for: "hoedown_stack_uninit"
-0000000100074234	leaq	0x129db(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/hoedown/src/stack.c"
+0000000100074234	leaq	0x129db(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/hoedown/src/stack.c"
 000000010007423b	leaq	0x12a12(%rip), %rcx             ## literal pool for: "st"
 0000000100074242	pushq	$0x1a
 0000000100074244	popq	%rdx
@@ -126220,7 +126220,7 @@ MacDown:
 000000010007424a	pushq	%rbp
 000000010007424b	movq	%rsp, %rbp
 000000010007424e	leaq	0x12a2a(%rip), %rdi             ## literal pool for: "hoedown_stack_push"
-0000000100074255	leaq	0x129ba(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/hoedown/src/stack.c"
+0000000100074255	leaq	0x129ba(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/hoedown/src/stack.c"
 000000010007425c	leaq	0x129f1(%rip), %rcx             ## literal pool for: "st"
 0000000100074263	pushq	$0x33
 0000000100074265	popq	%rdx
@@ -126228,7 +126228,7 @@ MacDown:
 000000010007426b	pushq	%rbp
 000000010007426c	movq	%rsp, %rbp
 000000010007426f	leaq	0x12a1c(%rip), %rdi             ## literal pool for: "hoedown_stack_pop"
-0000000100074276	leaq	0x12999(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/hoedown/src/stack.c"
+0000000100074276	leaq	0x12999(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/hoedown/src/stack.c"
 000000010007427d	leaq	0x129d0(%rip), %rcx             ## literal pool for: "st"
 0000000100074284	pushq	$0x3e
 0000000100074286	popq	%rdx
@@ -126236,7 +126236,7 @@ MacDown:
 000000010007428c	pushq	%rbp
 000000010007428d	movq	%rsp, %rbp
 0000000100074290	leaq	0x12a0d(%rip), %rdi             ## literal pool for: "hoedown_stack_top"
-0000000100074297	leaq	0x12978(%rip), %rsi             ## literal pool for: "/Users/franklinyu/.local/src/macdown/Pods/hoedown/src/stack.c"
+0000000100074297	leaq	0x12978(%rip), %rsi             ## literal pool for: "/Users/builder/.local/src/macdown/Pods/hoedown/src/stack.c"
 000000010007429e	leaq	0x129af(%rip), %rcx             ## literal pool for: "st"
 00000001000742a5	pushq	$0x49
 00000001000742a7	popq	%rdx
