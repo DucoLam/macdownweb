@@ -1,0 +1,1602 @@
+[
+ {
+  "html": "<p>3/4ths&lt;<!-- x --><code><code>(c),<kbd>\n<pre></p>",
+  "expected": "<p>&frac34;ths&lt;<!-- x --><code><code>(c),<kbd> <pre></p>"
+ },
+ {
+  "html": "<p><a href=\"x\">(r)&quot;(TM)(tm)</p>",
+  "expected": "<p><a href=\"x\">&reg;&ldquo;&trade;&trade;</p>"
+ },
+ {
+  "html": "<p>)(.re<pre> 3/4 ?)st</p>",
+  "expected": "<p>)(.re<pre> 3/4 ?)st</p>"
+ },
+ {
+  "html": "<p>(c). . .12 d5re</pre>(TM)t,</a></p>",
+  "expected": "<p>&copy;&hellip;12 d5re</pre>&trade;t,</a></p>"
+ },
+ {
+  "html": "<p>`(<kbd>---&#39;</p>",
+  "expected": "<p>`(<kbd>---&#39;</p>"
+ },
+ {
+  "html": "<p></code>word</p>",
+  "expected": "<p></code>word</p>"
+ },
+ {
+  "html": "<p>1/4awords/t'1/2...<code></p>",
+  "expected": "<p>1/4awords/t'&frac12;&hellip;<code></p>"
+ },
+ {
+  "html": "<p>1/4th</p>",
+  "expected": "<p>&frac14;th</p>"
+ },
+ {
+  "html": "<p>s(tm)<a href=\"x\">ve</p>",
+  "expected": "<p>s&trade;<a href=\"x\">ve</p>"
+ },
+ {
+  "html": "<p>(&amp;<kbd>'``llm</b></p>",
+  "expected": "<p>(&amp;<kbd>'``llm</b></p>"
+ },
+ {
+  "html": "<p>ve0(r)m?</p>",
+  "expected": "<p>ve0&reg;m?</p>"
+ },
+ {
+  "html": "<p>\"<b><b>word<a href=\"x\"></code>3/4</em><!-- x --></p>",
+  "expected": "<p>&ldquo;<b><b>word<a href=\"x\"></code>&frac34;</em><!-- x --></p>"
+ },
+ {
+  "html": "<p>(C)''<code>)&quot;</code>--</p>",
+  "expected": "<p>&copy;&ldquo;<code>)&quot;</code>&ndash;</p>"
+ },
+ {
+  "html": "<p>--1/2ll<a href=\"x\">3/4ths)(TM)<a href=\"x\">wordt\"12<kbd>\n</p>",
+  "expected": "<p>&ndash;1/2ll<a href=\"x\">&frac34;ths)&trade;<a href=\"x\">wordt&quot;12<kbd> </p>"
+ },
+ {
+  "html": "<p><!-- x -->&#39;)3/4ths\"1/4`<b></code><code>ve</b></p>",
+  "expected": "<p><!-- x -->&#39;)&frac34;ths&quot;&frac14;`<b></code><code>ve</b></p>"
+ },
+ {
+  "html": "<p><code>...''(tm)<code>t12</code>  1/212.</p>",
+  "expected": "<p><code>...''(tm)<code>t12</code> 1/212.</p>"
+ },
+ {
+  "html": "<p>5<kbd>m\n<a href=\"x\">12veve</p>",
+  "expected": "<p>5<kbd>m <a href=\"x\">12veve</p>"
+ },
+ {
+  "html": "<p>, </p>",
+  "expected": "<p>, </p>"
+ },
+ {
+  "html": "<p>&amp;</p>",
+  "expected": "<p>&amp;</p>"
+ },
+ {
+  "html": "<p>---.....<em><kbd></p>",
+  "expected": "<p>&mdash;&hellip;..<em><kbd></p>"
+ },
+ {
+  "html": "<p> (tm)re:3/4ths---, 5(TM)</p>",
+  "expected": "<p> &trade;re:&frac34;ths&mdash;, 5&trade;</p>"
+ },
+ {
+  "html": "<p>&quot;51/2<pre></p>",
+  "expected": "<p>&ldquo;51/2<pre></p>"
+ },
+ {
+  "html": "<p></a>1/4th`</kbd>`</p>",
+  "expected": "<p></a>&frac14;th`</kbd>`</p>"
+ },
+ {
+  "html": "<p></code>3/4...<em>'...dre <kbd></p>",
+  "expected": "<p></code>&frac34;&hellip;<em>&lsquo;&hellip;dre <kbd></p>"
+ },
+ {
+  "html": "<p>&quot; tt&#39;3/4ths::&amp;</p>",
+  "expected": "<p>&ldquo; tt&#39;&frac34;ths::&amp;</p>"
+ },
+ {
+  "html": "<p>,3/4\"wordword/</p>",
+  "expected": "<p>,&frac34;&quot;wordword/</p>"
+ },
+ {
+  "html": "<p>\"s (c)!1/4th0</kbd><!-- x --></em>re<code>!3/4ths</p>",
+  "expected": "<p>&ldquo;s &copy;!&frac14;th0</kbd><!-- x --></em>re<code>!3/4ths</p>"
+ },
+ {
+  "html": "<p>&#39;&lt;''--?<pre>'</b>1/4th</a></kbd></p>",
+  "expected": "<p>&lsquo;&lt;&ldquo;&ndash;?<pre>'</b>1/4th</a></kbd></p>"
+ },
+ {
+  "html": "<p>`,(r).(TM)?<a href=\"x\">1/412)<em></code><kbd>(r)</p>",
+  "expected": "<p>`,&reg;.&trade;?<a href=\"x\">1/412)<em></code><kbd>(r)</p>"
+ },
+ {
+  "html": "<p></a><em>(TM). . .--1/2 ved'12&lt;</p>",
+  "expected": "<p></a><em>&trade;&hellip;&ndash;&frac12; ved'12&lt;</p>"
+ },
+ {
+  "html": "<p>(C)\"1/2</em>d<b>''.<a href=\"x\">t<b>&lt;12</p>",
+  "expected": "<p>&copy;&ldquo;&frac12;</em>d<b>&rdquo;.<a href=\"x\">t<b>&lt;12</p>"
+ },
+ {
+  "html": "<p>&quot;``</p>",
+  "expected": "<p>&ldquo;&rdquo;</p>"
+ },
+ {
+  "html": "<p>s\"<!-- x --><a href=\"x\"><a href=\"x\">(TM)(r)<code>:wordre</p>",
+  "expected": "<p>s&quot;<!-- x --><a href=&ldquo;x&rdquo;><a href=\"x\">&trade;&reg;<code>:wordre</p>"
+ },
+ {
+  "html": "<p><code>ve</code>`d<kbd></kbd>1/4th1/4'(c)(d12</p>",
+  "expected": "<p><code>ve</code>`d<kbd></kbd>&frac14;th1/4'&copy;(d12</p>"
+ },
+ {
+  "html": "<p>---</p>",
+  "expected": "<p>&mdash;</p>"
+ },
+ {
+  "html": "<p><a href=\"x\">&quot;5</em></kbd>\n5<b><code>...<a href=\"x\"> <code>d</p>",
+  "expected": "<p><a href=\"x\">&ldquo;5</em></kbd> 5<b><code>...<a href=\"x\"> <code>d</p>"
+ },
+ {
+  "html": "<p>re\"<code>.. . .<!-- x -->wordll':t&lt;5</p>",
+  "expected": "<p>re&quot;<code>.. . .<!-- x -->wordll':t&lt;5</p>"
+ },
+ {
+  "html": "<p><em> (tm)</kbd>''(s)</b>1/4. . .</p>",
+  "expected": "<p><em> &trade;</kbd>&ldquo;(s)</b>&frac14;&hellip;</p>"
+ },
+ {
+  "html": "<p>&#39;''</p>",
+  "expected": "<p>&ldquo;&lsquo;</p>"
+ },
+ {
+  "html": "<p>-3/41/4--(C)---3/4(---ve</p>",
+  "expected": "<p>-3/41/4&ndash;&copy;&mdash;&frac34;(&mdash;ve</p>"
+ },
+ {
+  "html": "<p>'<kbd><code>word\"...(r)</code></a></b>(tm)ve(TM)</p>",
+  "expected": "<p>&lsquo;<kbd><code>word\"...(r)</code></a></b>(tm)ve(TM)</p>"
+ },
+ {
+  "html": "<p>'1/43/4thsass-\"!--m</p>",
+  "expected": "<p>&lsquo;1/43/4thsass-&ldquo;!&ndash;m</p>"
+ },
+ {
+  "html": "<p><a href=\"x\">(C)'(TM):</em> 01/4th-- <b>vell</p>",
+  "expected": "<p><a href=\"x\">&copy;&lsquo;&trade;:</em> 01/4th&ndash; <b>vell</p>"
+ },
+ {
+  "html": "<p><b>`''',</pre>)</p>",
+  "expected": "<p><b>`&ldquo;&lsquo;,</pre>)</p>"
+ },
+ {
+  "html": "<p>ve. . .``3/4thsre<a href=\"x\"></p>",
+  "expected": "<p>ve&hellip;&ldquo;&frac34;thsre<a href=\"x\"></p>"
+ },
+ {
+  "html": "<p>word</a>0veat</a></p>",
+  "expected": "<p>word</a>0veat</a></p>"
+ },
+ {
+  "html": "<p>?00.&#39;<kbd>1/4thre</p>",
+  "expected": "<p>?00.&lsquo;<kbd>1/4thre</p>"
+ },
+ {
+  "html": "<p>\n3/4</p>",
+  "expected": "<p> &frac34;</p>"
+ },
+ {
+  "html": "<p>...</p>",
+  "expected": "<p>&hellip;</p>"
+ },
+ {
+  "html": "<p>(c)\"</pre>1/4th!(tm)0 (TM)t(r)a</p>",
+  "expected": "<p>&copy;&ldquo;</pre>&frac14;th!&trade;0 &trade;t&reg;a</p>"
+ },
+ {
+  "html": "<p>re<pre></b><kbd>:<em>3/4ths<pre>---&#39;1/4</p>",
+  "expected": "<p>re<pre></b><kbd>:<em>3/4ths<pre>---&#39;1/4</p>"
+ },
+ {
+  "html": "<p>'0m<a href=\"x\"></a>ll<pre></p>",
+  "expected": "<p>&lsquo;0m<a href=\"x\"></a>ll<pre></p>"
+ },
+ {
+  "html": "<p>\"/. . .\" a--- re</p>",
+  "expected": "<p>&ldquo;/&hellip;&rdquo; a&mdash; re</p>"
+ },
+ {
+  "html": "<p></em>`\"\n'&#39;'  </p>",
+  "expected": "<p></em>`&ldquo; &rdquo;&lsquo; </p>"
+ },
+ {
+  "html": "<p>...</p>",
+  "expected": "<p>&hellip;</p>"
+ },
+ {
+  "html": "<p>5&quot;,s,</p>",
+  "expected": "<p>5&quot;,s,</p>"
+ },
+ {
+  "html": "<p></em>ll</p>",
+  "expected": "<p></em>ll</p>"
+ },
+ {
+  "html": "<p>3/4ths</em>?3/4ths&#39;(C)&lt;</p>",
+  "expected": "<p>&frac34;ths</em>?&frac34;ths&#39;&copy;&lt;</p>"
+ },
+ {
+  "html": "<p>``'123/4ths((TM)(C)</p>",
+  "expected": "<p>&ldquo;&lsquo;123/4ths(&trade;&copy;</p>"
+ },
+ {
+  "html": "<p><a href=\"x\">\n&lt;\n. . .</a>---</b></p>",
+  "expected": "<p><a href=\"x\"> &lt; &hellip;</a>&mdash;</b></p>"
+ },
+ {
+  "html": "<p>...''s!&amp;(tm))3/4!</b>(<pre></p>",
+  "expected": "<p>&hellip;&ldquo;s!&amp;&trade;)&frac34;!</b>(<pre></p>"
+ },
+ {
+  "html": "<p>!</p>",
+  "expected": "<p>!</p>"
+ },
+ {
+  "html": "<p><em>1/4th(c). . .(r) ! <kbd>(TM)3/4&lt;&#39;s</p>",
+  "expected": "<p><em>&frac14;th&copy;&hellip;&reg; ! <kbd>(TM)3/4&lt;&#39;s</p>"
+ },
+ {
+  "html": "<p>word3/41/4:</kbd>12.</p>",
+  "expected": "<p>word3/41/4:</kbd>12.</p>"
+ },
+ {
+  "html": "<p>\nd</kbd>\"3/4thsd<!-- x -->!</a>(c)</p>",
+  "expected": "<p> d</kbd>&ldquo;&frac34;thsd<!-- x -->!</a>&copy;</p>"
+ },
+ {
+  "html": "<p>reve<!-- x -->0:\"0.</b></em></p>",
+  "expected": "<p>reve<!-- x -->0:&ldquo;0.</b></em></p>"
+ },
+ {
+  "html": "<p></b> 1/4th0<b><kbd></kbd>(r) <kbd>0&lt;a</p>",
+  "expected": "<p></b> &frac14;th0<b><kbd></kbd>&reg; <kbd>0&lt;a</p>"
+ },
+ {
+  "html": "<p>!!<pre>m(c)5</p>",
+  "expected": "<p>!!<pre>m(c)5</p>"
+ },
+ {
+  "html": "<p>red...<code>??1/4</em></pre></p>",
+  "expected": "<p>red&hellip;<code>??1/4</em></pre></p>"
+ },
+ {
+  "html": "<p>3/4</p>",
+  "expected": "<p>&frac34;</p>"
+ },
+ {
+  "html": "<p>&amp;s--`t (tm)`:</p>",
+  "expected": "<p>&amp;s&ndash;`t &trade;`:</p>"
+ },
+ {
+  "html": "<p></code></p>",
+  "expected": "<p></code></p>"
+ },
+ {
+  "html": "<p>---<b>/<em></em>12 a s\n.</p>",
+  "expected": "<p>&mdash;<b>/<em></em>12 a s .</p>"
+ },
+ {
+  "html": "<p>(TM),<pre>``<em>`0, 1/2---...</p>",
+  "expected": "<p>&trade;,<pre>``<em>`0, 1/2---...</p>"
+ },
+ {
+  "html": "<p>1/4th</kbd> </b>3/4<pre>&#39;/(tm)<b>ve(TM)</p>",
+  "expected": "<p>&frac14;th</kbd> </b>&frac34;<pre>&#39;/(tm)<b>ve(TM)</p>"
+ },
+ {
+  "html": "<p>5</p>",
+  "expected": "<p>5</p>"
+ },
+ {
+  "html": "<p><a href=\"x\">s?(,</kbd>`!</code></pre>!</p>",
+  "expected": "<p><a href=\"x\">s?(,</kbd>`!</code></pre>!</p>"
+ },
+ {
+  "html": "<p>\"</p>",
+  "expected": "<p>&ldquo;</p>"
+ },
+ {
+  "html": "<p>d\"``(TM).<a href=\"x\">3/4</p>",
+  "expected": "<p>d&quot;&ldquo;&trade;.<a href=\"x\">&frac34;</p>"
+ },
+ {
+  "html": "<p>---`a(c)word<kbd>'(TM)ve1/4d</code></p>",
+  "expected": "<p>&mdash;`a&copy;word<kbd>'(TM)ve1/4d</code></p>"
+ },
+ {
+  "html": "<p>(C)1/2&#39;&#39;ve3/4ths3/41/4th</p>",
+  "expected": "<p>&copy;&frac12;&#39;&lsquo;ve3/4ths3/41/4th</p>"
+ },
+ {
+  "html": "<p>,(c)&#39;/`''---m\"</p>",
+  "expected": "<p>,&copy;&lsquo;/`&ldquo;&mdash;m&rdquo;</p>"
+ },
+ {
+  "html": "<p>-3/4',\"12<code>'&quot;</em>(c)</code>!</p>",
+  "expected": "<p>-&frac34;',&ldquo;12<code>'&quot;</em>(c)</code>!</p>"
+ },
+ {
+  "html": "<p>re&#39;</p>",
+  "expected": "<p>re&#39;</p>"
+ },
+ {
+  "html": "<p>&#39;</p>",
+  "expected": "<p>&lsquo;</p>"
+ },
+ {
+  "html": "<p>(</kbd>...' ((C)''</p>",
+  "expected": "<p>(</kbd>&hellip;&lsquo; (&copy;&ldquo;</p>"
+ },
+ {
+  "html": "<p><code></b><pre>,m\"`.\"---re</p>",
+  "expected": "<p><code></b><pre>,m\"`.\"---re</p>"
+ },
+ {
+  "html": "<p><pre>\"\"</p>",
+  "expected": "<p><pre>\"\"</p>"
+ },
+ {
+  "html": "<p>--</p>",
+  "expected": "<p>&ndash;</p>"
+ },
+ {
+  "html": "<p>t<pre>(d<code>1/2-<pre>(c)</p>",
+  "expected": "<p>t<pre>(d<code>1/2-<pre>(c)</p>"
+ },
+ {
+  "html": "<p>---<a href=\"x\">?3/4-</p>",
+  "expected": "<p>&mdash;<a href=\"x\">?&frac34;-</p>"
+ },
+ {
+  "html": "<p>1/4th</p>",
+  "expected": "<p>&frac14;th</p>"
+ },
+ {
+  "html": "<p>re(r)s<b>(word0word``3/4. . .tre</p>",
+  "expected": "<p>re&reg;s<b>(word0word``&frac34;&hellip;tre</p>"
+ },
+ {
+  "html": "<p><code></p>",
+  "expected": "<p><code></p>"
+ },
+ {
+  "html": "<p>1/2''5a1/4th</pre>(r)&#39; </b>(r)</b>(</p>",
+  "expected": "<p>&frac12;'&lsquo;5a1/4th</pre>&reg;&rsquo; </b>&reg;</b>(</p>"
+ },
+ {
+  "html": "<p>(c)\"ll</p>",
+  "expected": "<p>&copy;&ldquo;ll</p>"
+ },
+ {
+  "html": "<p>:</em>?12(r)</p>",
+  "expected": "<p>:</em>?12&reg;</p>"
+ },
+ {
+  "html": "<p><em>0\n</p>",
+  "expected": "<p><em>0 </p>"
+ },
+ {
+  "html": "<p>(TM)</b>ll</pre></code>'&#39;<a href=\"x\">&quot;s</p>",
+  "expected": "<p>&trade;</b>ll</pre></code>&ldquo;<a href=\"x\">&quot;s</p>"
+ },
+ {
+  "html": "<p>1/4th1/4th(c)\"<em>.</pre></b>?&amp;word'.</p>",
+  "expected": "<p>&frac14;th1/4th&copy;&ldquo;<em>.</pre></b>?&amp;word'.</p>"
+ },
+ {
+  "html": "<p>(C).`</p>",
+  "expected": "<p>&copy;.`</p>"
+ },
+ {
+  "html": "<p> </pre>3/4</b>&#39;(C)</p>",
+  "expected": "<p> </pre>&frac34;</b>&lsquo;&copy;</p>"
+ },
+ {
+  "html": "<p>3/4m</p>",
+  "expected": "<p>3/4m</p>"
+ },
+ {
+  "html": "<p>,(TM)</p>",
+  "expected": "<p>,&trade;</p>"
+ },
+ {
+  "html": "<p>\"\"!<b>s1/2<!-- x --></em>50&#39;?</p>",
+  "expected": "<p>&ldquo;&rdquo;!<b>s1/2<!-- x --></em>50&#39;?</p>"
+ },
+ {
+  "html": "<p></em></em>'d3/4&amp;--''3/4/. . .</p>",
+  "expected": "<p></em></em>&lsquo;d3/4&amp;&ndash;&ldquo;&frac34;/&hellip;</p>"
+ },
+ {
+  "html": "<p>&lt;<kbd>/!12re &lt;</p>",
+  "expected": "<p>&lt;<kbd>/!12re &lt;</p>"
+ },
+ {
+  "html": "<p>0<a href=\"x\">word(C)a<b>\"</pre>(tm)</p>",
+  "expected": "<p>0<a href=\"x\">word&copy;a<b>&ldquo;</pre>&trade;</p>"
+ },
+ {
+  "html": "<p>0&lt;-</a>/---`<b>&quot; lld---\"</p>",
+  "expected": "<p>0&lt;-</a>/&mdash;`<b>&ldquo; lld&mdash;&rdquo;</p>"
+ },
+ {
+  "html": "<p>5(r)&lt;</p>",
+  "expected": "<p>5&reg;&lt;</p>"
+ },
+ {
+  "html": "<p><code>&lt;ve</kbd></b>'<b><code></p>",
+  "expected": "<p><code>&lt;ve</kbd></b>'<b><code></p>"
+ },
+ {
+  "html": "<p>word?&lt;t</b>'(r)</p>",
+  "expected": "<p>word?&lt;t</b>&lsquo;&reg;</p>"
+ },
+ {
+  "html": "<p></a>re'&amp;\"''</p>",
+  "expected": "<p></a>re'&amp;&ldquo;&rdquo;</p>"
+ },
+ {
+  "html": "<p>(ve1/212(<code>`mword<b></pre>&#39;``</p>",
+  "expected": "<p>(ve1/212(<code>`mword<b></pre>&#39;``</p>"
+ },
+ {
+  "html": "<p>-: (tm)/''(r)</p>",
+  "expected": "<p>-: &trade;/&ldquo;&reg;</p>"
+ },
+ {
+  "html": "<p></em>''''12m\n</p>",
+  "expected": "<p></em>&ldquo;&lsquo;'12m </p>"
+ },
+ {
+  "html": "<p></em>t&#39;<em>1/41/4th--- !</p>",
+  "expected": "<p></em>t&#39;<em>1/41/4th&mdash; !</p>"
+ },
+ {
+  "html": "<p>(TM)\":12'(<b></a></p>",
+  "expected": "<p>&trade;&ldquo;:12'(<b></a></p>"
+ },
+ {
+  "html": "<p>t.``!&#39;<kbd>s(C)(ll&lt;<code>1/2</p>",
+  "expected": "<p>t.&ldquo;!&lsquo;<kbd>s(C)(ll&lt;<code>1/2</p>"
+ },
+ {
+  "html": "<p>--1/2</p>",
+  "expected": "<p>&ndash;&frac12;</p>"
+ },
+ {
+  "html": "<p>a)\":tword\"m-- -...</p>",
+  "expected": "<p>a)&ldquo;:tword&quot;m&ndash; -&hellip;</p>"
+ },
+ {
+  "html": "<p>0<pre>3/4<code>--``(3/4</em></p>",
+  "expected": "<p>0<pre>3/4<code>--``(3/4</em></p>"
+ },
+ {
+  "html": "<p>-re(TM)(TM)(TM) &amp;/1/4th5</p>",
+  "expected": "<p>-re&trade;&trade;&trade; &amp;/&frac14;th5</p>"
+ },
+ {
+  "html": "<p>!t1/4th<pre>t`,m</em> (C).t</kbd></p>",
+  "expected": "<p>!t1/4th<pre>t`,m</em> (C).t</kbd></p>"
+ },
+ {
+  "html": "<p></kbd>,'&#39;re</p>",
+  "expected": "<p></kbd>,&ldquo;re</p>"
+ },
+ {
+  "html": "<p>)``--word(r)t<b>0&quot; 3/4thsve</p>",
+  "expected": "<p>)&ldquo;&ndash;word&reg;t<b>0&rdquo; &frac34;thsve</p>"
+ },
+ {
+  "html": "<p>0</em>wordt(C)t</p>",
+  "expected": "<p>0</em>wordt&copy;t</p>"
+ },
+ {
+  "html": "<p>):-</p>",
+  "expected": "<p>):-</p>"
+ },
+ {
+  "html": "<p>!?1/4th?</a><code>12---</p>",
+  "expected": "<p>!?&frac14;th?</a><code>12---</p>"
+ },
+ {
+  "html": "<p>0(TM)--`</p>",
+  "expected": "<p>0&trade;&ndash;`</p>"
+ },
+ {
+  "html": "<p>12!m</p>",
+  "expected": "<p>12!m</p>"
+ },
+ {
+  "html": "<p> '`1/20/</pre>``--'---</p>",
+  "expected": "<p> &lsquo;`1/20/</pre>&ldquo;&ndash;&rsquo;&mdash;</p>"
+ },
+ {
+  "html": "<p>s<em></p>",
+  "expected": "<p>s<em></p>"
+ },
+ {
+  "html": "<p><code>'</p>",
+  "expected": "<p><code>'</p>"
+ },
+ {
+  "html": "<p>?<a href=\"x\">&lt;\"1/2s/</code></pre></p>",
+  "expected": "<p>?<a href=\"x\">&lt;&ldquo;1/2s/</code></pre></p>"
+ },
+ {
+  "html": "<p>12\"``&#39;1/4th</p>",
+  "expected": "<p>12&quot;&ldquo;&lsquo;&frac14;th</p>"
+ },
+ {
+  "html": "<p>(C)1/4dre</code>---. . .''`</b>-?<a href=\"x\"></p>",
+  "expected": "<p>&copy;1/4dre</code>&mdash;&hellip;&ldquo;`</b>-?<a href=\"x\"></p>"
+ },
+ {
+  "html": "<p>&lt;\"m1/2,</p>",
+  "expected": "<p>&lt;&ldquo;m1/2,</p>"
+ },
+ {
+  "html": "<p>&lt;</p>",
+  "expected": "<p>&lt;</p>"
+ },
+ {
+  "html": "<p>1/4s&amp;-:1/2</kbd></b></a>/(C)sm<kbd></p>",
+  "expected": "<p>1/4s&amp;-:&frac12;</kbd></b></a>/&copy;sm<kbd></p>"
+ },
+ {
+  "html": "<p><em>&lt;</pre>ve(tm)</p>",
+  "expected": "<p><em>&lt;</pre>ve&trade;</p>"
+ },
+ {
+  "html": "<p>\")?<code>1/2\n(c)</p>",
+  "expected": "<p>&ldquo;)?<code>1/2 (c)</p>"
+ },
+ {
+  "html": "<p>``?<em></p>",
+  "expected": "<p>&ldquo;?<em></p>"
+ },
+ {
+  "html": "<p>a</em>(C)\"'\"</em>. . .``(c)'\"</p>",
+  "expected": "<p>a</em>&copy;&ldquo;&lsquo;&rdquo;</em>&hellip;&ldquo;&copy;&rsquo;&rdquo;</p>"
+ },
+ {
+  "html": "<p>\n(tm)!</em>\"</em>. . .'<b>'<b></p>",
+  "expected": "<p> &trade;!</em>&ldquo;</em>&hellip;&lsquo;<b>&rsquo;<b></p>"
+ },
+ {
+  "html": "<p>'/\"ve(C)</p>",
+  "expected": "<p>&lsquo;/&ldquo;ve&copy;</p>"
+ },
+ {
+  "html": "<p>:</p>",
+  "expected": "<p>:</p>"
+ },
+ {
+  "html": "<p><code>`wordtt''\"(C)re .(tm)a</p>",
+  "expected": "<p><code>`wordtt''\"(C)re .(tm)a</p>"
+ },
+ {
+  "html": "<p>(C)ve&lt;...(\"\n</p>",
+  "expected": "<p>&copy;ve&lt;&hellip;(&ldquo; </p>"
+ },
+ {
+  "html": "<p>1/2\n1/4th<em>...'<em>:``!\nt(r). . .</p>",
+  "expected": "<p>&frac12; &frac14;th<em>&hellip;&lsquo;<em>:&ldquo;! t&reg;&hellip;</p>"
+ },
+ {
+  "html": "<p>(</kbd>--<!-- x --> 3/4<!-- x -->0<pre>5<pre><kbd>123/4ths</p>",
+  "expected": "<p>(</kbd>&ndash;<!-- x --> &frac34;<!-- x -->0<pre>5<pre><kbd>123/4ths</p>"
+ },
+ {
+  "html": "<p>.``(c)llll1/4th<code>---</code>12&#39;s--&lt;</p>",
+  "expected": "<p>.&ldquo;&copy;llll1/4th<code>---</code>12&rsquo;s&ndash;&lt;</p>"
+ },
+ {
+  "html": "<p>&quot;a---s3/4&lt;</p>",
+  "expected": "<p>&ldquo;a&mdash;s3/4&lt;</p>"
+ },
+ {
+  "html": "<p>(C). . .<code>ve<!-- x --> .\n--(C)/(C)s!</p>",
+  "expected": "<p>&copy;&hellip;<code>ve<!-- x --> . --(C)/(C)s!</p>"
+ },
+ {
+  "html": "<p>'</a>-.&amp;</code> t(r)<!-- x -->(c)</p>",
+  "expected": "<p>&lsquo;</a>-.&amp;</code> t&reg;<!-- x -->(c)</p>"
+ },
+ {
+  "html": "<p></code>) ve\"</kbd>1/2</em>\"<kbd></b>(</p>",
+  "expected": "<p></code>) ve&quot;</kbd>&frac12;</em>&ldquo;<kbd></b>(</p>"
+ },
+ {
+  "html": "<p>ve&quot;\n,<kbd></pre></p>",
+  "expected": "<p>ve&quot; ,<kbd></pre></p>"
+ },
+ {
+  "html": "<p>ve<kbd>'...</code></pre></p>",
+  "expected": "<p>ve<kbd>'...</code></pre></p>"
+ },
+ {
+  "html": "<p><code></b>dll ?</em><em><em></p>",
+  "expected": "<p><code></b>dll ?</em><em><em></p>"
+ },
+ {
+  "html": "<p></em><pre></a>t1/2</p>",
+  "expected": "<p></em><pre></a>t1/2</p>"
+ },
+ {
+  "html": "<p>!(r)<!-- x -->''</p>",
+  "expected": "<p>!&reg;<!-- x -->'&lsquo;</p>"
+ },
+ {
+  "html": "<p>'<b></a> )-1/4th/</kbd> <em></p>",
+  "expected": "<p>&lsquo;<b></a> )-&frac14;th/</kbd> <em></p>"
+ },
+ {
+  "html": "<p>1/4'3/4ths--t1/41/4</p>",
+  "expected": "<p>&frac14;'&frac34;ths&ndash;t1/41/4</p>"
+ },
+ {
+  "html": "<p></a></a><em>---m<!-- x -->12ll-<code><b></p>",
+  "expected": "<p></a></a><em>&mdash;m<!-- x -->12ll-<code><b></p>"
+ },
+ {
+  "html": "<p> \n?<!-- x --></a><kbd><kbd>`word</p>",
+  "expected": "<p> ?<!-- x --></a><kbd><kbd>`word</p>"
+ },
+ {
+  "html": "<p>ll&lt;1/4``<code>''word1/4th</p>",
+  "expected": "<p>ll&lt;&frac14;``<code>''word1/4th</p>"
+ },
+ {
+  "html": "<p> !<a href=\"x\"><a href=\"x\"><kbd> \"'(C)3/41/4th</code>12</p>",
+  "expected": "<p> !<a href=\"x\"><a href=\"x\"><kbd> \"'(C)3/41/4th</code>12</p>"
+ },
+ {
+  "html": "<p><pre>&amp;</p>",
+  "expected": "<p><pre>&amp;</p>"
+ },
+ {
+  "html": "<p>1/2 ?3/4&amp;`12</p>",
+  "expected": "<p>&frac12; ?&frac34;&amp;`12</p>"
+ },
+ {
+  "html": "<p>a<!-- x -->\"</pre> </b>-&lt;a1/4(TM)(c)</p>",
+  "expected": "<p>a<!-- x -->\"</pre> </b>-&lt;a1/4&trade;&copy;</p>"
+ },
+ {
+  "html": "<p>3/4''0 / a<code>(TM)</a>t</p>",
+  "expected": "<p>&frac34;'&lsquo;0 / a<code>(TM)</a>t</p>"
+ },
+ {
+  "html": "<p>(c)...</p>",
+  "expected": "<p>&copy;&hellip;</p>"
+ },
+ {
+  "html": "<p>)(tm)t,12---</p>",
+  "expected": "<p>)&trade;t,12&mdash;</p>"
+ },
+ {
+  "html": "<p>:</p>",
+  "expected": "<p>:</p>"
+ },
+ {
+  "html": "<p>5)3/4ths<a href=\"x\">(c)</p>",
+  "expected": "<p>5)&frac34;ths<a href=\"x\">&copy;</p>"
+ },
+ {
+  "html": "<p>t 12</pre>...---1/2'...\n</pre></p>",
+  "expected": "<p>t 12</pre>&hellip;&mdash;&frac12;'&hellip; </pre></p>"
+ },
+ {
+  "html": "<p> ., ...<code></p>",
+  "expected": "<p> ., &hellip;<code></p>"
+ },
+ {
+  "html": "<p>,3/4ths</p>",
+  "expected": "<p>,&frac34;ths</p>"
+ },
+ {
+  "html": "<p></pre> \"</pre></p>",
+  "expected": "<p></pre> &ldquo;</pre></p>"
+ },
+ {
+  "html": "<p>\"&quot;1/4``a!re&#39;\"ll)/-</p>",
+  "expected": "<p>&ldquo;&quot;&frac14;``a!re&#39;&quot;ll)/-</p>"
+ },
+ {
+  "html": "<p>. . .......</p>",
+  "expected": "<p>&hellip;&hellip;&hellip;</p>"
+ },
+ {
+  "html": "<p>0</code>\"(c)</p>",
+  "expected": "<p>0</code>&ldquo;&copy;</p>"
+ },
+ {
+  "html": "<p><b>!<em>\"</a><!-- x -->s<em></kbd>/</p>",
+  "expected": "<p><b>!<em>&ldquo;</a><!-- x -->s<em></kbd>/</p>"
+ },
+ {
+  "html": "<p>.1/4th1/4th,t(c)<!-- x -->&lt;re3/4ths</p>",
+  "expected": "<p>.&frac14;th1/4th,t&copy;<!-- x -->&lt;re3/4ths</p>"
+ },
+ {
+  "html": "<p></a></b></b><code><code>---1/4</p>",
+  "expected": "<p></a></b></b><code><code>---1/4</p>"
+ },
+ {
+  "html": "<p>\n0</p>",
+  "expected": "<p> 0</p>"
+ },
+ {
+  "html": "<p>0 ll12':</em>-</code>(c)&#39;</p>",
+  "expected": "<p>0 ll12':</em>-</code>&copy;&lsquo;</p>"
+ },
+ {
+  "html": "<p>:ve...ll3/4'</pre>(r)(TM). . .</em></a>.</b></p>",
+  "expected": "<p>:ve&hellip;ll3/4'</pre>&reg;&trade;&hellip;</em></a>.</b></p>"
+ },
+ {
+  "html": "<p>)</p>",
+  "expected": "<p>)</p>"
+ },
+ {
+  "html": "<p>t0<a href=\"x\">...</kbd>re</p>",
+  "expected": "<p>t0<a href=\"x\">&hellip;</kbd>re</p>"
+ },
+ {
+  "html": "<p>\n(C)---3/40 \"</p>",
+  "expected": "<p> &copy;&mdash;3/40 &ldquo;</p>"
+ },
+ {
+  "html": "<p>&amp;</kbd></p>",
+  "expected": "<p>&amp;</kbd></p>"
+ },
+ {
+  "html": "<p>---\"?\n`</p>",
+  "expected": "<p>&mdash;&ldquo;? `</p>"
+ },
+ {
+  "html": "<p>t</p>",
+  "expected": "<p>t</p>"
+ },
+ {
+  "html": "<p>\",'da</p>",
+  "expected": "<p>&ldquo;,&lsquo;da</p>"
+ },
+ {
+  "html": "<p>. . .a</kbd>\n<b>:</p>",
+  "expected": "<p>&hellip;a</kbd> <b>:</p>"
+ },
+ {
+  "html": "<p></b><pre>''</p>",
+  "expected": "<p></b><pre>''</p>"
+ },
+ {
+  "html": "<p>`:1/4th5\n0---1/2da d<kbd>3/4</p>",
+  "expected": "<p>`:&frac14;th5 0&mdash;1/2da d<kbd>3/4</p>"
+ },
+ {
+  "html": "<p></a>12</p>",
+  "expected": "<p></a>12</p>"
+ },
+ {
+  "html": "<p>&amp;. . .</kbd><kbd>3/4/`3/4/ \"<code></em>''</p>",
+  "expected": "<p>&amp;&hellip;</kbd><kbd>3/4/`3/4/ \"<code></em>''</p>"
+ },
+ {
+  "html": "<p>.3/4ths</p>",
+  "expected": "<p>.&frac34;ths</p>"
+ },
+ {
+  "html": "<p>\"ll,...)&lt;'</kbd>/''<code></p>",
+  "expected": "<p>&ldquo;ll,&hellip;)&lt;&lsquo;</kbd>/&rdquo;<code></p>"
+ },
+ {
+  "html": "<p>\"/ve ---1/4</p>",
+  "expected": "<p>&ldquo;/ve &mdash;&frac14;</p>"
+ },
+ {
+  "html": "<p>``'',)'<!-- x --><pre>' \"</p>",
+  "expected": "<p>&ldquo;&rdquo;,)&lsquo;<!-- x --><pre>&rsquo; &ldquo;</p>"
+ },
+ {
+  "html": "<p></kbd>&amp;(c)` -(c)</p>",
+  "expected": "<p></kbd>&amp;&copy;` -&copy;</p>"
+ },
+ {
+  "html": "<p>!1/2<b>3/4</kbd>(re</p>",
+  "expected": "<p>!&frac12;<b>&frac34;</kbd>(re</p>"
+ },
+ {
+  "html": "<p>``3/4ths(C)--m(TM) -</p>",
+  "expected": "<p>&ldquo;&frac34;ths&copy;&ndash;m&trade; -</p>"
+ },
+ {
+  "html": "<p>\"&#39;&quot;s'1/4thre</p>",
+  "expected": "<p>&ldquo;&lsquo;&quot;s'&frac14;thre</p>"
+ },
+ {
+  "html": "<p>3/4ths<em>:/(r)</p>",
+  "expected": "<p>&frac34;ths<em>:/&reg;</p>"
+ },
+ {
+  "html": "<p><pre>(tm) /&#39;</p>",
+  "expected": "<p><pre>(tm) /&#39;</p>"
+ },
+ {
+  "html": "<p>5<em>&lt;1/4?)'--``(&quot;</p>",
+  "expected": "<p>5<em>&lt;&frac14;?)&lsquo;&ndash;&ldquo;(&rdquo;</p>"
+ },
+ {
+  "html": "<p>`3/4''/?</a>(r)</p>",
+  "expected": "<p>`&frac34;'&lsquo;/?</a>&reg;</p>"
+ },
+ {
+  "html": "<p></b>(3/4re`&quot;m<pre>\n'</p>",
+  "expected": "<p></b>(3/4re`&ldquo;m<pre> '</p>"
+ },
+ {
+  "html": "<p></pre><a href=\"x\"></p>",
+  "expected": "<p></pre><a href=\"x\"></p>"
+ },
+ {
+  "html": "<p>`''(C)1/2...12\n<kbd></p>",
+  "expected": "<p>`&ldquo;&copy;&frac12;&hellip;12 <kbd></p>"
+ },
+ {
+  "html": "<p></a>\nrell&quot;(TM)ve!<a href=\"x\"></p>",
+  "expected": "<p></a> rell&quot;&trade;ve!<a href=\"x\"></p>"
+ },
+ {
+  "html": "<p>---3/4word!)1/4,</p>",
+  "expected": "<p>&mdash;3/4word!)&frac14;,</p>"
+ },
+ {
+  "html": "<p></a>'d12)--</em> d5</pre><em></a></p>",
+  "expected": "<p></a>&lsquo;d12)&ndash;</em> d5</pre><em></a></p>"
+ },
+ {
+  "html": "<p>\"',3/4thsve``'</kbd></p>",
+  "expected": "<p>&ldquo;&lsquo;,&frac34;thsve&rdquo;&rsquo;</kbd></p>"
+ },
+ {
+  "html": "<p>re(TM)</code>` d</p>",
+  "expected": "<p>re&trade;</code>` d</p>"
+ },
+ {
+  "html": "<p>.<pre></p>",
+  "expected": "<p>.<pre></p>"
+ },
+ {
+  "html": "<p>msd12(<pre>--</p>",
+  "expected": "<p>msd12(<pre>--</p>"
+ },
+ {
+  "html": "<p>t1/2--- . . .</a><!-- x -->1/45(TM)</p>",
+  "expected": "<p>t1/2&mdash; &hellip;</a><!-- x -->1/45&trade;</p>"
+ },
+ {
+  "html": "<p>(c)ll<!-- x -->,<b>1/4th1/4(tm)word</p>",
+  "expected": "<p>&copy;ll<!-- x -->,<b>&frac14;th1/4&trade;word</p>"
+ },
+ {
+  "html": "<p>/'&lt;?&lt;\"(C)-ll</p>",
+  "expected": "<p>/&lsquo;&lt;?&lt;&ldquo;&copy;-ll</p>"
+ },
+ {
+  "html": "<p></code>...</pre> ``(tm),--(<!-- x -->----</p>",
+  "expected": "<p></code>&hellip;</pre> &ldquo;&trade;,&ndash;(<!-- x -->-&mdash;</p>"
+ },
+ {
+  "html": "<p>(c)1/4'<code><b>ll &amp;(c)ve</b>a!</p>",
+  "expected": "<p>&copy;&frac14;'<code><b>ll &amp;(c)ve</b>a!</p>"
+ },
+ {
+  "html": "<p>.</em>\n0\"...t<kbd>&amp;,</p>",
+  "expected": "<p>.</em> 0&quot;&hellip;t<kbd>&amp;,</p>"
+ },
+ {
+  "html": "<p></b>s</code>``ve</em> </kbd>&quot;<kbd>(tm)\n)</p>",
+  "expected": "<p></b>s</code>&ldquo;ve</em> </kbd>&rdquo;<kbd>(tm) )</p>"
+ },
+ {
+  "html": "<p>``''<b></p>",
+  "expected": "<p>&ldquo;&rdquo;<b></p>"
+ },
+ {
+  "html": "<p>&amp;...&#39;\"&lt;<em></p>",
+  "expected": "<p>&amp;&hellip;&lsquo;&ldquo;&lt;<em></p>"
+ },
+ {
+  "html": "<p></pre> 1/4th--``(C)</p>",
+  "expected": "<p></pre> &frac14;th&ndash;&ldquo;&copy;</p>"
+ },
+ {
+  "html": "<p>(TM)1/4--!.(C).1/2</p>",
+  "expected": "<p>&trade;&frac14;&ndash;!.&copy;.&frac12;</p>"
+ },
+ {
+  "html": "<p>---`</a>m---.1/21/2,</p>",
+  "expected": "<p>&mdash;`</a>m&mdash;.1/21/2,</p>"
+ },
+ {
+  "html": "<p></em>re</p>",
+  "expected": "<p></em>re</p>"
+ },
+ {
+  "html": "<p>\". . .&amp;wordre <em>5\nve </p>",
+  "expected": "<p>&ldquo;&hellip;&amp;wordre <em>5 ve </p>"
+ },
+ {
+  "html": "<p>--.)ll\n--( 3/4ths0-</p>",
+  "expected": "<p>&ndash;.)ll &ndash;( &frac34;ths0-</p>"
+ },
+ {
+  "html": "<p>&#39;<a href=\"x\">'5</em><em>(. . .</kbd></pre>(``<!-- x --></p>",
+  "expected": "<p>&lsquo;<a href=\"x\">'5</em><em>(&hellip;</kbd></pre>(&ldquo;<!-- x --></p>"
+ },
+ {
+  "html": "<p><kbd>t''3/41/4.</b>a</em></p>",
+  "expected": "<p><kbd>t''3/41/4.</b>a</em></p>"
+ },
+ {
+  "html": "<p>-- </pre></p>",
+  "expected": "<p>&ndash; </pre></p>"
+ },
+ {
+  "html": "<p>d</p>",
+  "expected": "<p>d</p>"
+ },
+ {
+  "html": "<p>wordm<!-- x -->`</p>",
+  "expected": "<p>wordm<!-- x -->`</p>"
+ },
+ {
+  "html": "<p>\"</p>",
+  "expected": "<p>&ldquo;</p>"
+ },
+ {
+  "html": "<p>&amp;(C)1/4/a<code></p>",
+  "expected": "<p>&amp;&copy;&frac14;/a<code></p>"
+ },
+ {
+  "html": "<p>re</p>",
+  "expected": "<p>re</p>"
+ },
+ {
+  "html": "<p><b><a href=\"x\">:&quot;&lt;--</p>",
+  "expected": "<p><b><a href=\"x\">:&ldquo;&lt;&ndash;</p>"
+ },
+ {
+  "html": "<p>word)(c)``<em><!-- x --><pre></pre></kbd></p>",
+  "expected": "<p>word)&copy;&ldquo;<em><!-- x --><pre></pre></kbd></p>"
+ },
+ {
+  "html": "<p>12</code>'`/(tm)d</b><b>/</code></p>",
+  "expected": "<p>12</code>&lsquo;`/&trade;d</b><b>/</code></p>"
+ },
+ {
+  "html": "<p><!-- x --></em>'\"(TM)`m5&#39;<b>. . .</p>",
+  "expected": "<p><!-- x --></em>&lsquo;&ldquo;&trade;`m5&rsquo;<b>&hellip;</p>"
+ },
+ {
+  "html": "<p>(tm)1/4th</pre>?</p>",
+  "expected": "<p>&trade;&frac14;th</pre>?</p>"
+ },
+ {
+  "html": "<p>\"--12ll0re -</p>",
+  "expected": "<p>&ldquo;&ndash;12ll0re -</p>"
+ },
+ {
+  "html": "<p>)s</a>(C)\"'</kbd>5-<kbd>''(tm)121/2</p>",
+  "expected": "<p>)s</a>&copy;&ldquo;&lsquo;</kbd>5-<kbd>''(tm)121/2</p>"
+ },
+ {
+  "html": "<p>. . .(? .1/2---&#39;\n.)</kbd></p>",
+  "expected": "<p>&hellip;(? .&frac12;&mdash;&lsquo; .)</kbd></p>"
+ },
+ {
+  "html": "<p><code><!-- x -->-(r)re/</p>",
+  "expected": "<p><code><!-- x -->-(r)re/</p>"
+ },
+ {
+  "html": "<p>:d&lt;3/4ths&lt;.<kbd>/</a>``12--)</p>",
+  "expected": "<p>:d&lt;&frac34;ths&lt;.<kbd>/</a>``12--)</p>"
+ },
+ {
+  "html": "<p>'</pre> !. . .\"<pre><a href=\"x\">:\"</p>",
+  "expected": "<p>&lsquo;</pre> !&hellip;&ldquo;<pre><a href=\"x\">:\"</p>"
+ },
+ {
+  "html": "<p></pre>`!t/12(r)0...<b>(tm)``</p>",
+  "expected": "<p></pre>`!t/12&reg;0&hellip;<b>&trade;&ldquo;</p>"
+ },
+ {
+  "html": "<p>:`t</p>",
+  "expected": "<p>:`t</p>"
+ },
+ {
+  "html": "<p><b></em>1/4th&lt;, s?</p>",
+  "expected": "<p><b></em>&frac14;th&lt;, s?</p>"
+ },
+ {
+  "html": "<p>(TM)m3/4m </p>",
+  "expected": "<p>&trade;m3/4m </p>"
+ },
+ {
+  "html": "<p>a</p>",
+  "expected": "<p>a</p>"
+ },
+ {
+  "html": "<p>!</p>",
+  "expected": "<p>!</p>"
+ },
+ {
+  "html": "<p>ll\n</p>",
+  "expected": "<p>ll </p>"
+ },
+ {
+  "html": "<p>re</b></p>",
+  "expected": "<p>re</b></p>"
+ },
+ {
+  "html": "<p></em><em></em></pre><a href=\"x\">\"</p>",
+  "expected": "<p></em><em></em></pre><a href=\"x\">&ldquo;</p>"
+ },
+ {
+  "html": "<p>---(c)<a href=\"x\">-\"<kbd>(c)(TM)--3/4<code></em>\"&#39;</p>",
+  "expected": "<p>&mdash;&copy;<a href=\"x\">-&ldquo;<kbd>(c)(TM)--3/4<code></em>\"&#39;</p>"
+ },
+ {
+  "html": "<p>0ll\n</p>",
+  "expected": "<p>0ll </p>"
+ },
+ {
+  "html": "<p>00</p>",
+  "expected": "<p>00</p>"
+ },
+ {
+  "html": "<p><b>lla(c) .5---&amp;</p>",
+  "expected": "<p><b>lla&copy; .5&mdash;&amp;</p>"
+ },
+ {
+  "html": "<p>,</a><em>.s ,</code><code>&amp;/</p>",
+  "expected": "<p>,</a><em>.s ,</code><code>&amp;/</p>"
+ },
+ {
+  "html": "<p> 0</kbd>)md1/2 &amp;\":</p>",
+  "expected": "<p> 0</kbd>)md1/2 &amp;&ldquo;:</p>"
+ },
+ {
+  "html": "<p>''`-<a href=\"x\">t</em>3/4---0</p>",
+  "expected": "<p>&ldquo;`-<a href=\"x\">t</em>&frac34;&mdash;0</p>"
+ },
+ {
+  "html": "<p> </em>5\"3/4ths1/2)\"0</p>",
+  "expected": "<p> </em>5&quot;&frac34;ths1/2)&ldquo;0</p>"
+ },
+ {
+  "html": "<p>.!</p>",
+  "expected": "<p>.!</p>"
+ },
+ {
+  "html": "<p>...0</p>",
+  "expected": "<p>&hellip;0</p>"
+ },
+ {
+  "html": "<p>\"<pre>\n121/4<a href=\"x\">(TM)0<kbd>12...---t,</p>",
+  "expected": "<p>&ldquo;<pre> 121/4<a href=\"x\">(TM)0<kbd>12...---t,</p>"
+ },
+ {
+  "html": "<p>d</kbd>(c))5`</em>``----``d1/2</a></p>",
+  "expected": "<p>d</kbd>&copy;)5`</em>&ldquo;&mdash;-``d1/2</a></p>"
+ },
+ {
+  "html": "<p><kbd></em></pre> ``?(tm)<kbd>a0(r)</p>",
+  "expected": "<p><kbd></em></pre> ``?(tm)<kbd>a0(r)</p>"
+ },
+ {
+  "html": "<p> 1/4th(c)5da... m<!-- x -->.d</p>",
+  "expected": "<p> &frac14;th&copy;5da&hellip; m<!-- x -->.d</p>"
+ },
+ {
+  "html": "<p></code>-<kbd>'',</a>lld1/2</p>",
+  "expected": "<p></code>-<kbd>'',</a>lld1/2</p>"
+ },
+ {
+  "html": "<p>5re...`</p>",
+  "expected": "<p>5re&hellip;`</p>"
+ },
+ {
+  "html": "<p>? 1/2dd51/4</a>-a&#39;<a href=\"x\"></p>",
+  "expected": "<p>? 1/2dd51/4</a>-a&#39;<a href=\"x\"></p>"
+ },
+ {
+  "html": "<p>/5d51/4th0(TM)</p>",
+  "expected": "<p>/5d51/4th0&trade;</p>"
+ },
+ {
+  "html": "<p>\",1/21/4(tm)</b>m<!-- x --> </p>",
+  "expected": "<p>&ldquo;,1/21/4&trade;</b>m<!-- x --> </p>"
+ },
+ {
+  "html": "<p>\n0(</kbd></code><!-- x -->m</em>3/4thsd,)</p>",
+  "expected": "<p> 0(</kbd></code><!-- x -->m</em>&frac34;thsd,)</p>"
+ },
+ {
+  "html": "<p>&amp;re'),</p>",
+  "expected": "<p>&amp;re'),</p>"
+ },
+ {
+  "html": "<p>&quot;<kbd>:3/45a</p>",
+  "expected": "<p>&ldquo;<kbd>:3/45a</p>"
+ },
+ {
+  "html": "<p>.--<pre><em>.a&amp;ll...?. . .!</p>",
+  "expected": "<p>.&ndash;<pre><em>.a&amp;ll...?. . .!</p>"
+ },
+ {
+  "html": "<p>''1/4th5</p>",
+  "expected": "<p>&ldquo;&frac14;th5</p>"
+ },
+ {
+  "html": "<p>a</em></em>&quot;('123/4ths</p>",
+  "expected": "<p>a</em></em>&ldquo;(&lsquo;123/4ths</p>"
+ },
+ {
+  "html": "<p>--<b></p>",
+  "expected": "<p>&ndash;<b></p>"
+ },
+ {
+  "html": "<p> (TM)121/4</p>",
+  "expected": "<p> &trade;121/4</p>"
+ },
+ {
+  "html": "<p><code>/</p>",
+  "expected": "<p><code>/</p>"
+ },
+ {
+  "html": "<p>&lt;--</kbd></p>",
+  "expected": "<p>&lt;&ndash;</kbd></p>"
+ },
+ {
+  "html": "<p>)!---)</a>?<b>t''</p>",
+  "expected": "<p>)!&mdash;)</a>?<b>t'&lsquo;</p>"
+ },
+ {
+  "html": "<p>ll(c):<b>'</a>ve </p>",
+  "expected": "<p>ll&copy;:<b>&lsquo;</a>ve </p>"
+ },
+ {
+  "html": "<p> \nll</b>--<a href=\"x\">(<b></p>",
+  "expected": "<p> ll</b>&ndash;<a href=\"x\">(<b></p>"
+ },
+ {
+  "html": "<p>d1/4!!'   ---</p>",
+  "expected": "<p>d1/4!!&lsquo; &mdash;</p>"
+ },
+ {
+  "html": "<p>a---<a href=\"x\"><b>ll5,3/4 </p>",
+  "expected": "<p>a&mdash;<a href=\"x\"><b>ll5,&frac34; </p>"
+ },
+ {
+  "html": "<p>0`1/2s''<em>5</p>",
+  "expected": "<p>0`1/2s'&lsquo;<em>5</p>"
+ },
+ {
+  "html": "<p>\"?</a>ve (C)(TM)<em>):(</p>",
+  "expected": "<p>&ldquo;?</a>ve &copy;&trade;<em>):(</p>"
+ },
+ {
+  "html": "<p>--<kbd>/5)...&quot;---</p>",
+  "expected": "<p>&ndash;<kbd>/5)...&quot;---</p>"
+ },
+ {
+  "html": "<p>12&#39;,1/4<pre>0?</p>",
+  "expected": "<p>12&#39;,&frac14;<pre>0?</p>"
+ },
+ {
+  "html": "<p>&lt;1/2</p>",
+  "expected": "<p>&lt;&frac12;</p>"
+ },
+ {
+  "html": "<p>-...</code></code> 1/4tm</p>",
+  "expected": "<p>-&hellip;</code></code> 1/4tm</p>"
+ },
+ {
+  "html": "<p><code>1/4th3/4,0<code>a</p>",
+  "expected": "<p><code>1/4th3/4,0<code>a</p>"
+ },
+ {
+  "html": "<p> <b>'0? </p>",
+  "expected": "<p> <b>&lsquo;0? </p>"
+ },
+ {
+  "html": "<p>llmword`(TM))(r)\n\"<kbd></p>",
+  "expected": "<p>llmword`&trade;)&reg; &ldquo;<kbd></p>"
+ },
+ {
+  "html": "<p><b>(''</code>ll</em><kbd>'d?--llve</a></p>",
+  "expected": "<p><b>(&ldquo;</code>ll</em><kbd>'d?--llve</a></p>"
+ },
+ {
+  "html": "<p><code><em><code> :</p>",
+  "expected": "<p><code><em><code> :</p>"
+ },
+ {
+  "html": "<p></em></em></p>",
+  "expected": "<p></em></em></p>"
+ },
+ {
+  "html": "<p>'3/4ths0</kbd>'<code>. . . </pre>&quot;(C)  word</p>",
+  "expected": "<p>&lsquo;&frac34;ths0</kbd>&rsquo;<code>. . . </pre>&quot;(C) word</p>"
+ },
+ {
+  "html": "<p>(c)<em>12 re<kbd>veve(C)</p>",
+  "expected": "<p>&copy;<em>12 re<kbd>veve(C)</p>"
+ },
+ {
+  "html": "<p>'3/43/4,`(C)0---?</p>",
+  "expected": "<p>&lsquo;3/43/4,`&copy;0&mdash;?</p>"
+ },
+ {
+  "html": "<p>\"</pre>&amp;3/4...</p>",
+  "expected": "<p>&ldquo;</pre>&amp;&frac34;&hellip;</p>"
+ },
+ {
+  "html": "<p>\n3/4---:,?5\"(TM)</b>&#39;,'</p>",
+  "expected": "<p> &frac34;&mdash;:,?5&quot;&trade;</b>&lsquo;,&rsquo;</p>"
+ },
+ {
+  "html": "<p>0<a href=\"x\">/)\"1/4`...<code></p>",
+  "expected": "<p>0<a href=\"x\">/)&ldquo;&frac14;`&hellip;<code></p>"
+ },
+ {
+  "html": "<p>s0</p>",
+  "expected": "<p>s0</p>"
+ },
+ {
+  "html": "<p></pre>0/</b> )``1/2\"t</p>",
+  "expected": "<p></pre>0/</b> )&ldquo;&frac12;&quot;t</p>"
+ },
+ {
+  "html": "<p>'.)</b></em>5. . .0---``!1/4(r)m</p>",
+  "expected": "<p>&lsquo;.)</b></em>5&hellip;0&mdash;&ldquo;!&frac14;&reg;m</p>"
+ },
+ {
+  "html": "<p>(r)<!-- x -->(</p>",
+  "expected": "<p>&reg;<!-- x -->(</p>"
+ },
+ {
+  "html": "<p>&lt;</a>1/4th0`&quot;1/40&quot;0(TM)</p>",
+  "expected": "<p>&lt;</a>&frac14;th0`&ldquo;1/40&quot;0&trade;</p>"
+ },
+ {
+  "html": "<p></code>m--llm</b>1/2,<!-- x -->. . .)</p>",
+  "expected": "<p></code>m&ndash;llm</b>&frac12;,<!-- x -->. . .)</p>"
+ },
+ {
+  "html": "<p> a(<b></a>d<b>\"</em>...t.</p>",
+  "expected": "<p> a(<b></a>d<b>&ldquo;</em>&hellip;t.</p>"
+ },
+ {
+  "html": "<p>5''<b>(r)&lt;&lt;<code></code>:&#39;</p>",
+  "expected": "<p>5'&lsquo;<b>&reg;&lt;&lt;<code></code>:&rsquo;</p>"
+ },
+ {
+  "html": "<p>&lt;<code>''1/2. . .<pre>word</p>",
+  "expected": "<p>&lt;<code>''1/2. . .<pre>word</p>"
+ },
+ {
+  "html": "<p> `&amp;&amp;wordve(r)ll(c)&quot;<a href=\"x\"></em>&#39;</p>",
+  "expected": "<p> `&amp;&amp;wordve&reg;ll&copy;&ldquo;<a href=\"x\"></em>&lsquo;</p>"
+ },
+ {
+  "html": "<p>\"---5(c)wordve3/4-'</p>",
+  "expected": "<p>&ldquo;&mdash;5&copy;wordve3/4-&lsquo;</p>"
+ },
+ {
+  "html": "<p>3/4a0\"&quot;s</p>",
+  "expected": "<p>3/4a0&quot;&ldquo;s</p>"
+ },
+ {
+  "html": "<p>1/4th:\"t1/2t&amp;-'<pre>\"&lt;<kbd>a</p>",
+  "expected": "<p>&frac14;th:&ldquo;t1/2t&amp;-&lsquo;<pre>\"&lt;<kbd>a</p>"
+ },
+ {
+  "html": "<p>(c)d12re--<pre>-</kbd>1/4</p>",
+  "expected": "<p>&copy;d12re&ndash;<pre>-</kbd>1/4</p>"
+ },
+ {
+  "html": "<p>&quot;\"m`ve)</p>",
+  "expected": "<p>&ldquo;&quot;m`ve)</p>"
+ },
+ {
+  "html": "<p>m</p>",
+  "expected": "<p>m</p>"
+ },
+ {
+  "html": "<p>---51/4&quot;5(c)</p>",
+  "expected": "<p>&mdash;51/4&quot;5&copy;</p>"
+ },
+ {
+  "html": "<p>--s</code></a>---&quot;</p>",
+  "expected": "<p>&ndash;s</code></a>&mdash;&ldquo;</p>"
+ },
+ {
+  "html": "<p>,<b>ve<b><!-- x -->1/2word/</kbd>)? </p>",
+  "expected": "<p>,<b>ve<b><!-- x -->1/2word/</kbd>)? </p>"
+ },
+ {
+  "html": "<p>dre1/4th(ave</p>",
+  "expected": "<p>dre1/4th(ave</p>"
+ },
+ {
+  "html": "<p><!-- x -->m</code></p>",
+  "expected": "<p><!-- x -->m</code></p>"
+ },
+ {
+  "html": "<p></pre>--<code>(C)</b><code>m<em></p>",
+  "expected": "<p></pre>&ndash;<code>(C)</b><code>m<em></p>"
+ },
+ {
+  "html": "<p> -word</em>&quot;-. . .,(</p>",
+  "expected": "<p> -word</em>&ldquo;-&hellip;,(</p>"
+ },
+ {
+  "html": "<p>(c)<pre>m'(tm)</p>",
+  "expected": "<p>&copy;<pre>m'(tm)</p>"
+ },
+ {
+  "html": "<p><code>'5</p>",
+  "expected": "<p><code>'5</p>"
+ },
+ {
+  "html": "<p>: (C)...</code>3/4a</p>",
+  "expected": "<p>: &copy;&hellip;</code>3/4a</p>"
+ },
+ {
+  "html": "<p>m`3/4ths(C) <em>&#39;\"</a>--3/4</em></p>",
+  "expected": "<p>m`&frac34;ths&copy; <em>&lsquo;&ldquo;</a>&ndash;&frac34;</em></p>"
+ },
+ {
+  "html": "<p>?``/``'ves<b></p>",
+  "expected": "<p>?&ldquo;/&rdquo;&lsquo;ves<b></p>"
+ },
+ {
+  "html": "<p>ll<pre>&#39;5<pre>word</p>",
+  "expected": "<p>ll<pre>&#39;5<pre>word</p>"
+ },
+ {
+  "html": "<p> <a href=\"x\">`t<pre>12</pre>/ve<a href=\"x\">12</pre>:m</p>",
+  "expected": "<p> <a href=\"x\">`t<pre>12</pre>/ve<a href=\"x\">12</pre>:m</p>"
+ },
+ {
+  "html": "<p>ll</p>",
+  "expected": "<p>ll</p>"
+ },
+ {
+  "html": "<p>1/4th(tm)(tm)(C)re</p>",
+  "expected": "<p>&frac14;th&trade;&trade;&copy;re</p>"
+ },
+ {
+  "html": "<p>1/4th<code>:?</p>",
+  "expected": "<p>&frac14;th<code>:?</p>"
+ },
+ {
+  "html": "<p>&quot;re-----<code>''</kbd>word</b></p>",
+  "expected": "<p>&ldquo;re&mdash;&ndash;<code>''</kbd>word</b></p>"
+ },
+ {
+  "html": "<p>.'?(</em>(TM).../(<b></p>",
+  "expected": "<p>.&lsquo;?(</em>&trade;&hellip;/(<b></p>"
+ },
+ {
+  "html": "<p>1/2</pre>:(tm)1/2</pre>\"</p>",
+  "expected": "<p>&frac12;</pre>:&trade;&frac12;</pre>&ldquo;</p>"
+ },
+ {
+  "html": "<p>--/'<em>ll/\"</b>'(\".</p>",
+  "expected": "<p>&ndash;/&lsquo;<em>ll/&ldquo;</b>&rsquo;(&rdquo;.</p>"
+ },
+ {
+  "html": "<p>a?re1/4th?\"3/4(r)</p>",
+  "expected": "<p>a?re1/4th?&ldquo;&frac34;&reg;</p>"
+ },
+ {
+  "html": "<p>.12re<b>(c)'!')12''<em></p>",
+  "expected": "<p>.12re<b>&copy;&lsquo;!&rsquo;)12'&lsquo;<em></p>"
+ },
+ {
+  "html": "<p>---(c))</p>",
+  "expected": "<p>&mdash;&copy;)</p>"
+ },
+ {
+  "html": "<p>(r)(TM)<pre>3/4word(TM)1/4\n<a href=\"x\"> (c). . .1/4th<!-- x --></p>",
+  "expected": "<p>&reg;&trade;<pre>3/4word(TM)1/4 <a href=\"x\"> (c). . .1/4th<!-- x --></p>"
+ },
+ {
+  "html": "<p>(c)<code>`5(r)m!&lt;</em></p>",
+  "expected": "<p>&copy;<code>`5(r)m!&lt;</em></p>"
+ },
+ {
+  "html": "<p>/</em>m</p>",
+  "expected": "<p>/</em>m</p>"
+ },
+ {
+  "html": "<p> --</p>",
+  "expected": "<p> &ndash;</p>"
+ },
+ {
+  "html": "<p>''...</p>",
+  "expected": "<p>&ldquo;&hellip;</p>"
+ },
+ {
+  "html": "<p>12d<a href=\"x\">?(TM)</p>",
+  "expected": "<p>12d<a href=\"x\">?&trade;</p>"
+ },
+ {
+  "html": "<p></b>?<pre>1/2</kbd><kbd>(TM)(!3/4/``</p>",
+  "expected": "<p></b>?<pre>1/2</kbd><kbd>(TM)(!3/4/``</p>"
+ },
+ {
+  "html": "<p>(c)</p>",
+  "expected": "<p>&copy;</p>"
+ },
+ {
+  "html": "<p>&quot;)512...,(C)d</p>",
+  "expected": "<p>&ldquo;)512&hellip;,&copy;d</p>"
+ },
+ {
+  "html": "<p>`(C)</a>(c)0 !3/4ths. . .</kbd> '&amp;</p>",
+  "expected": "<p>`&copy;</a>&copy;0 !&frac34;ths&hellip;</kbd> &lsquo;&amp;</p>"
+ },
+ {
+  "html": "<p><a href=\"x\">. . .1/43/4&amp;( 1/2</em></p>",
+  "expected": "<p><a href=\"x\">&hellip;1/43/4&amp;( &frac12;</em></p>"
+ },
+ {
+  "html": "<p>&#39;.</p>",
+  "expected": "<p>&lsquo;.</p>"
+ },
+ {
+  "html": "<p>re ''(c)ve</a>(C)(c)/``---3/4(tm) </p>",
+  "expected": "<p>re &ldquo;&copy;ve</a>&copy;&copy;/&rdquo;&mdash;&frac34;&trade; </p>"
+ },
+ {
+  "html": "<p>a':</p>",
+  "expected": "<p>a':</p>"
+ },
+ {
+  "html": "<p>\"(tm)(C)3/4thsve&#39;, ve</p>",
+  "expected": "<p>&ldquo;&trade;&copy;&frac34;thsve&#39;, ve</p>"
+ },
+ {
+  "html": "<p>\" \na\"</code>0</p>",
+  "expected": "<p>&ldquo; a&rdquo;</code>0</p>"
+ },
+ {
+  "html": "<p>1/4(c)word`</kbd>(r)</p>",
+  "expected": "<p>&frac14;&copy;word`</kbd>&reg;</p>"
+ },
+ {
+  "html": "<p></b></b>a</pre> )</kbd>,</em>(</b>1/4st</p>",
+  "expected": "<p></b></b>a</pre> )</kbd>,</em>(</b>1/4st</p>"
+ },
+ {
+  "html": "<p>1/2\"&amp;121/4<pre></a></p>",
+  "expected": "<p>&frac12;&quot;&amp;121/4<pre></a></p>"
+ },
+ {
+  "html": "<p>a---... ''&#39;&quot;&amp;(c)/!</code>(r)-</p>",
+  "expected": "<p>a&mdash;&hellip; &ldquo;&lsquo;&rdquo;&amp;&copy;/!</code>&reg;-</p>"
+ },
+ {
+  "html": "<p><!-- x -->(C)- &amp;ll1/4ms</a>1/2!)</p>",
+  "expected": "<p><!-- x -->(C)- &amp;ll1/4ms</a>&frac12;!)</p>"
+ },
+ {
+  "html": "<p><kbd>-- '</b>:(r)(TM)</em>ll3/4ths!</p>",
+  "expected": "<p><kbd>-- '</b>:(r)(TM)</em>ll3/4ths!</p>"
+ },
+ {
+  "html": "<p>/m</p>",
+  "expected": "<p>/m</p>"
+ },
+ {
+  "html": "<p> ((r)s12</p>",
+  "expected": "<p> (&reg;s12</p>"
+ },
+ {
+  "html": "<p>s</p>",
+  "expected": "<p>s</p>"
+ },
+ {
+  "html": "<p>-&#39;?:`<!-- x --></p>",
+  "expected": "<p>-&lsquo;?:`<!-- x --></p>"
+ },
+ {
+  "html": "<p>re0\nve1/4th\"<code><code>)'</p>",
+  "expected": "<p>re0 ve1/4th&quot;<code><code>)'</p>"
+ },
+ {
+  "html": "<p>`<code></em>re''</p>",
+  "expected": "<p>`<code></em>re''</p>"
+ },
+ {
+  "html": "<p>. . ..1/4th?&amp;<code>--m3/4ths</p>",
+  "expected": "<p>&hellip;.&frac14;th?&amp;<code>--m3/4ths</p>"
+ },
+ {
+  "html": "<p>\n1/4th</p>",
+  "expected": "<p> &frac14;th</p>"
+ },
+ {
+  "html": "<p>( )<pre>&amp;</p>",
+  "expected": "<p>( )<pre>&amp;</p>"
+ },
+ {
+  "html": "<p>3/4ths:)1/4. . .</pre>(TM)(c)</kbd><code>\"ve1/4th</pre></p>",
+  "expected": "<p>&frac34;ths:)&frac14;&hellip;</pre>&trade;&copy;</kbd><code>\"ve1/4th</pre></p>"
+ },
+ {
+  "html": "<p><code>1/4th'''<a href=\"x\"></p>",
+  "expected": "<p><code>1/4th'''<a href=\"x\"></p>"
+ },
+ {
+  "html": "<p>3/4?---\"--re?01/4th\n</p>",
+  "expected": "<p>&frac34;?&mdash;&ldquo;&ndash;re?01/4th </p>"
+ },
+ {
+  "html": "<p></kbd>--t......ve0ll&quot;</p>",
+  "expected": "<p></kbd>&ndash;t&hellip;&hellip;ve0ll&quot;</p>"
+ },
+ {
+  "html": "<p>...a3/4(r)</em>(tm)3/4word(r)''50<b></p>",
+  "expected": "<p>&hellip;a3/4&reg;</em>&trade;3/4word&reg;&ldquo;50<b></p>"
+ },
+ {
+  "html": "<p></b></pre><a href=\"x\">(1/2&amp;. . .(C)</p>",
+  "expected": "<p></b></pre><a href=\"x\">(&frac12;&amp;&hellip;&copy;</p>"
+ },
+ {
+  "html": "<p><em>re:.t</p>",
+  "expected": "<p><em>re:.t</p>"
+ },
+ {
+  "html": "<p></kbd></kbd>&quot;</p>",
+  "expected": "<p></kbd></kbd>&ldquo;</p>"
+ },
+ {
+  "html": "<p>''5:</p>",
+  "expected": "<p>&ldquo;5:</p>"
+ },
+ {
+  "html": "<p>&quot;---</code>5--5&quot;&quot;``'</p>",
+  "expected": "<p>&ldquo;&mdash;</code>5&ndash;5&rdquo;&ldquo;&rdquo;&lsquo;</p>"
+ },
+ {
+  "html": "<p> <!-- x --></a></p>",
+  "expected": "<p> <!-- x --></a></p>"
+ },
+ {
+  "html": "<p>-<a href=\"x\"><!-- x -->ve''</p>",
+  "expected": "<p>-<a href=\"x\"><!-- x -->ve'&lsquo;</p>"
+ }
+]

@@ -1,0 +1,3 @@
+NSButton Include syntax highlighting | value -> self.highlightingIncluded @ <MPExportPanelAccessoryViewController>
+NSButton Include styles | value -> self.stylesIncluded @ <MPExportPanelAccessoryViewController>
+=== actions

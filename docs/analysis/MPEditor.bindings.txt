@@ -1,0 +1,24 @@
+NSTextField None | value -> self.preferences.editorHorizontalInset @ <MPEditorPreferencesViewController>
+NSStepper None | value -> self.preferences.editorVerticalInset @ <MPEditorPreferencesViewController>
+NSStepper None | value -> self.preferences.editorHorizontalInset @ <MPEditorPreferencesViewController>
+NSButton Ensure newline at end of file on save | value -> self.preferences.editorEnsuresNewlineAtEndOfFile @ <MPEditorPreferencesViewController>
+NSStepper None | value -> self.preferences.editorLineSpacing @ <MPEditorPreferencesViewController>
+NSTextField None | value -> self.preferences.editorLineSpacing @ <MPEditorPreferencesViewController>
+NSButton Auto-complete matching characters | value -> self.preferences.editorCompleteMatchingCharacters @ <MPEditorPreferencesViewController>
+NSStepper None | value -> self.preferences.editorMaximumWidth @ <MPEditorPreferencesViewController>
+NSStepper None | enabled -> self.preferences.editorWidthLimited @ <MPEditorPreferencesViewController>
+NSButton Auto-increment numbering in ordered lists | value -> self.preferences.editorAutoIncrementNumberedLists @ <MPEditorPreferencesViewController>
+NSButton Auto-increment numbering in ordered lists | enabled -> self.preferences.editorInsertPrefixInBlock @ <MPEditorPreferencesViewController>
+NSButton ⌘← jumps to first non-whitespace character in line | value -> self.preferences.editorSmartHome @ <MPEditorPreferencesViewController>
+NSPopUpButton None | selectedIndex -> self.preferences.editorUnorderedListMarkerType @ <MPEditorPreferencesViewController>
+NSButton Limit editor width to | value -> self.preferences.editorWidthLimited @ <MPEditorPreferencesViewController>
+NSTextField None | value -> self.preferences.editorMaximumWidth @ <MPEditorPreferencesViewController>
+NSTextField None | enabled -> self.preferences.editorWidthLimited @ <MPEditorPreferencesViewController>
+NSButton Insert spaces instead of tabs | value -> self.preferences.editorConvertTabs @ <MPEditorPreferencesViewController>
+NSButton Automatically insert line prefix for the current block | value -> self.preferences.editorInsertPrefixInBlock @ <MPEditorPreferencesViewController>
+NSButton Scroll past end | value -> self.preferences.editorScrollsPastEnd @ <MPEditorPreferencesViewController>
+NSTextField None | value -> self.preferences.editorVerticalInset @ <MPEditorPreferencesViewController>
+=== actions
+('NSPopUpButton', None) [('changeTheme:', '<MPEditorPreferencesViewController>')]
+('NSButton', 'Change…') [('showFontPanel:', '<MPEditorPreferencesViewController>')]
+('NSSegmentedControl', None) [('invokeStylesheetFunction:', '<MPEditorPreferencesViewController>')]
