@@ -1,0 +1,11 @@
+NSButton Include pre-releases | value -> self.preferences.updateIncludesPreReleases @ <MPGeneralPreferencesViewController>
+NSButton Ensure open document on launch | value -> self.preferences.supressesUntitledDocumentOnLaunch @ <MPGeneralPreferencesViewController>
+NSButton Put editor on the right | value -> self.preferences.editorOnRight @ <MPGeneralPreferencesViewController>
+NSButton Show word count | value -> self.preferences.editorShowWordCount @ <MPGeneralPreferencesViewController>
+NSButton Show word count | enabled -> self.preferences.markdownManualRender @ <MPGeneralPreferencesViewController>
+NSButton Sync preview scrollbar when editor scrolls | value -> self.preferences.editorSyncScrolling @ <MPGeneralPreferencesViewController>
+NSButton Automatically create files for link targets | value -> self.preferences.createFileForLinkTarget @ <MPGeneralPreferencesViewController>
+NSButton Update preview automatically as you type | value -> self.preferences.markdownManualRender @ <MPGeneralPreferencesViewController>
+=== actions
+('NSButton', 'Update preview automatically as you type') [('updateWordCounterVisibility:', '<MPGeneralPreferencesViewController>')]
+('NSButton', 'Ensure open document on launch') [('updateWordCounterVisibility:', '<MPGeneralPreferencesViewController>')]

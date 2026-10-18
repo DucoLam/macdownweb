@@ -1,0 +1,22 @@
+NSButton Show line numbers | value -> self.preferences.htmlLineNumbers @ <MPHtmlPreferencesViewController>
+NSButton Show line numbers | enabled -> self.preferences.htmlSyntaxHighlighting @ <MPHtmlPreferencesViewController>
+NSButton Use dollar sign ($) as inline delimiter | value -> self.preferences.htmlMathJaxInlineDollar @ <MPHtmlPreferencesViewController>
+NSButton Use dollar sign ($) as inline delimiter | enabled -> self.preferences.htmlMathJax @ <MPHtmlPreferencesViewController>
+NSButton Render newline literally | value -> self.preferences.htmlHardWrap @ <MPHtmlPreferencesViewController>
+NSButton Detect Jekyll front-matter | value -> self.preferences.htmlDetectFrontMatter @ <MPHtmlPreferencesViewController>
+NSPathControl None | value -> self.preferences.htmlDefaultDirectoryUrl @ <MPHtmlPreferencesViewController>
+NSButton Mermaid | value -> self.preferences.htmlMermaid @ <MPHtmlPreferencesViewController>
+NSButton Mermaid | enabled -> self.preferences.htmlSyntaxHighlighting @ <MPHtmlPreferencesViewController>
+NSButton Syntax highlighted code block | value -> self.preferences.htmlSyntaxHighlighting @ <MPHtmlPreferencesViewController>
+NSButton Scale preview based on editor font size | value -> self.preferences.previewZoomRelativeToBaseFontSize @ <MPHtmlPreferencesViewController>
+NSButton Graphviz | value -> self.preferences.htmlGraphviz @ <MPHtmlPreferencesViewController>
+NSButton Graphviz | enabled -> self.preferences.htmlSyntaxHighlighting @ <MPHtmlPreferencesViewController>
+NSPopUpButtonCell None | selectedIndex -> self.preferences.htmlCodeBlockAccessory @ <MPHtmlPreferencesViewController>
+NSButton Task list syntax | value -> self.preferences.htmlTaskList @ <MPHtmlPreferencesViewController>
+NSButton Detect table of contents token | value -> self.preferences.htmlRendersTOC @ <MPHtmlPreferencesViewController>
+NSButton TeX-like math syntax | value -> self.preferences.htmlMathJax @ <MPHtmlPreferencesViewController>
+NSPopUpButton None | enabled -> self.preferences.htmlSyntaxHighlighting @ <MPHtmlPreferencesViewController>
+=== actions
+('NSPopUpButton', None) [('changeHighlightingTheme:', '<MPHtmlPreferencesViewController>')]
+('NSSegmentedControl', None) [('invokeStylesheetFunction:', '<MPHtmlPreferencesViewController>')]
+('NSPopUpButton', None) [('changeStylesheet:', '<MPHtmlPreferencesViewController>')]

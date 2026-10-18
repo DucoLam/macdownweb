@@ -1,0 +1,12 @@
+NSButton Intra-word emphasis | value -> self.preferences.extensionIntraEmphasis @ <MPMarkdownPreferencesViewController>
+NSButton Smartypants | value -> self.preferences.extensionSmartyPants @ <MPMarkdownPreferencesViewController>
+NSButton Superscript | value -> self.preferences.extensionSuperscript @ <MPMarkdownPreferencesViewController>
+NSButton Strikethrough | value -> self.preferences.extensionStrikethough @ <MPMarkdownPreferencesViewController>
+NSButton Quote | value -> self.preferences.extensionQuote @ <MPMarkdownPreferencesViewController>
+NSButton Fenced code block | value -> self.preferences.extensionFencedCode @ <MPMarkdownPreferencesViewController>
+NSButton Footnote | value -> self.preferences.extensionFootnotes @ <MPMarkdownPreferencesViewController>
+NSButton Autolink | value -> self.preferences.extensionAutolink @ <MPMarkdownPreferencesViewController>
+NSButton Highlight | value -> self.preferences.extensionHighlight @ <MPMarkdownPreferencesViewController>
+NSButton Table | value -> self.preferences.extensionTables @ <MPMarkdownPreferencesViewController>
+NSButton Underline | value -> self.preferences.extensionUnderline @ <MPMarkdownPreferencesViewController>
+=== actions

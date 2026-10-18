@@ -1,0 +1,120 @@
+MacDown  []  
+  About MacDown  []  [('orderFrontStandardAboutPanel:', 'FirstResponder')]
+  Check for Updates…  []  [('checkForUpdates:', '<SUUpdater>')]
+  ----
+  Preferences…  [Cmd+',']  [('showPreferencesWindow:', '<MPMainController>')]
+  ----
+  Services  []  
+  ----
+  Hide MacDown  [Cmd+'h']  [('hide:', 'FirstResponder')]
+  Hide Others  [Opt+Cmd+'h']  [('hideOtherApplications:', 'FirstResponder')]
+  Show All  []  [('unhideAllApplications:', 'FirstResponder')]
+  ----
+  Quit MacDown  [Cmd+'q']  [('terminate:', 'FirstResponder')]
+File  []  
+  New  [Cmd+'n']  [('newDocument:', 'FirstResponder')]
+  Open…  [Cmd+'o']  [('openDocument:', 'FirstResponder')]
+  Open Recent  []  
+    Clear Menu  []  [('clearRecentDocuments:', 'FirstResponder')]
+  ----
+  Close  [Cmd+'w']  [('performClose:', 'FirstResponder')]
+  Save…  [Cmd+'s']  [('saveDocument:', 'FirstResponder')]
+  Save As…  [Cmd+'S']  [('saveDocumentAs:', 'FirstResponder')]
+  Revert to Saved  []  [('revertDocumentToSaved:', 'FirstResponder')]
+  ----
+  Export  []  
+    HTML…  [Opt+Cmd+'e']  [('exportHtml:', 'FirstResponder')]
+    PDF…  [Opt+Cmd+'p']  [('exportPdf:', 'FirstResponder')]
+  ----
+  Page Setup…  [Shift+Cmd+'P']  [('runPageLayout:', 'FirstResponder')]
+  Print…  [Cmd+'p']  [('printDocument:', 'FirstResponder')]
+Edit  []  
+  Undo  [Cmd+'z']  [('undo:', 'FirstResponder')]
+  Redo  [Cmd+'Z']  [('redo:', 'FirstResponder')]
+  ----
+  Cut  [Cmd+'x']  [('cut:', 'FirstResponder')]
+  Copy  [Cmd+'c']  [('copy:', 'FirstResponder')]
+  Paste  [Cmd+'v']  [('paste:', 'FirstResponder')]
+  Delete  []  [('delete:', 'FirstResponder')]
+  Select All  [Cmd+'a']  [('selectAll:', 'FirstResponder')]
+  ----
+  Find  []  
+    Find…  [Cmd+'f']  [('performFindPanelAction:', 'FirstResponder')] tag=1
+    Find and Replace…  [Opt+Cmd+'f']  [('performFindPanelAction:', 'FirstResponder')] tag=12
+    Find Next  [Cmd+'g']  [('performFindPanelAction:', 'FirstResponder')] tag=2
+    Find Previous  [Cmd+'G']  [('performFindPanelAction:', 'FirstResponder')] tag=3
+    Use Selection for Find  [Cmd+'e']  [('performFindPanelAction:', 'FirstResponder')] tag=7
+    Jump to Selection  [Cmd+'j']  [('centerSelectionInVisibleArea:', 'FirstResponder')]
+  Spelling and Grammar  []  
+    Show Spelling and Grammar  [Cmd+':']  [('showGuessPanel:', 'FirstResponder')]
+    Check Document Now  [Cmd+';']  [('checkSpelling:', 'FirstResponder')]
+    ----
+    Check Spelling While Typing  []  [('toggleContinuousSpellChecking:', 'FirstResponder')]
+    Check Grammar With Spelling  []  [('toggleGrammarChecking:', 'FirstResponder')]
+    Correct Spelling Automatically  []  [('toggleAutomaticSpellingCorrection:', 'FirstResponder')]
+  Substitutions  []  
+    Show Substitutions  []  [('orderFrontSubstitutionsPanel:', 'FirstResponder')]
+    ----
+    Smart Copy/Paste  []  [('toggleSmartInsertDelete:', 'FirstResponder')]
+    Smart Quotes  []  [('toggleAutomaticQuoteSubstitution:', 'FirstResponder')]
+    Smart Dashes  []  [('toggleAutomaticDashSubstitution:', 'FirstResponder')]
+    Data Detectors  []  [('toggleAutomaticDataDetection:', 'FirstResponder')]
+    Text Replacement  []  [('toggleAutomaticTextReplacement:', 'FirstResponder')]
+  Transformations  []  
+    Make Upper Case  []  [('uppercaseWord:', 'FirstResponder')]
+    Make Lower Case  []  [('lowercaseWord:', 'FirstResponder')]
+    Capitalize  []  [('capitalizeWord:', 'FirstResponder')]
+  Speech  []  
+    Start Speaking  []  [('startSpeaking:', 'FirstResponder')]
+    Stop Speaking  []  [('stopSpeaking:', 'FirstResponder')]
+View  []  
+  Render Markdown  [Cmd+'r']  [('render:', 'FirstResponder')]
+  ----
+  Left 1:3 Right  []  [('setEditorOneQuarter:', 'FirstResponder')]
+  Left 1:1 Right  [Shift+Cmd+'0']  [('setEqualSplit:', 'FirstResponder')]
+  Left 3:1 Right  []  [('setEditorThreeQuarters:', 'FirstResponder')]
+  Hide Preview Pane  [Cmd+'H']  [('togglePreviewPane:', 'FirstResponder')]
+  Hide Editor Pane  [Cmd+'E']  [('toggleEditorPane:', 'FirstResponder')]
+  ----
+  Show Toolbar  [Opt+Cmd+'t']  [('toggleToolbar:', 'FirstResponder')]
+  ----
+  Enter Full Screen  [Ctrl+Cmd+'f']  [('toggleFullScreen:', 'FirstResponder')]
+Format  []  
+  Copy HTML  [Opt+Cmd+'c']  [('copyHtml:', 'FirstResponder')]
+  ----
+  Strong  [Cmd+'b']  [('toggleStrong:', 'FirstResponder')]
+  Emphasize  [Cmd+'i']  [('toggleEmphasis:', 'FirstResponder')]
+  Underline  [Cmd+'u']  [('toggleUnderline:', 'FirstResponder')]
+  Strikethrough  [Cmd+'-']  [('toggleStrikethrough:', 'FirstResponder')]
+  Highlight  [Cmd+'=']  [('toggleHighlight:', 'FirstResponder')]
+  Inline Code  [Cmd+'k']  [('toggleInlineCode:', 'FirstResponder')]
+  Comment  [Cmd+'/']  [('toggleComment:', 'FirstResponder')]
+  ----
+  Convert To  []  
+    Header 1  [Cmd+'1']  [('convertToH1:', 'FirstResponder')]
+    Header 2  [Cmd+'2']  [('convertToH2:', 'FirstResponder')]
+    Header 3  [Cmd+'3']  [('convertToH3:', 'FirstResponder')]
+    Header 4  [Cmd+'4']  [('convertToH4:', 'FirstResponder')]
+    Header 5  [Cmd+'5']  [('convertToH5:', 'FirstResponder')]
+    Header 6  [Cmd+'6']  [('convertToH6:', 'FirstResponder')]
+    Paragraph  [Cmd+'0']  [('convertToParagraph:', 'FirstResponder')]
+  ----
+  Ordered List  [Cmd+'O']  [('toggleOrderedList:', 'FirstResponder')]
+  Unordered List  [Cmd+'U']  [('toggleUnorderedList:', 'FirstResponder')]
+  Blockquote  [Cmd+'B']  [('toggleBlockquote:', 'FirstResponder')]
+  ----
+  Shift Right  [Cmd+']']  [('indent:', 'FirstResponder')]
+  Shift Left  [Cmd+'[']  [('unindent:', 'FirstResponder')]
+  ----
+  Link  [Cmd+'K']  [('toggleLink:', 'FirstResponder')]
+  Image  [Cmd+'I']  [('toggleImage:', 'FirstResponder')]
+  New Paragraph  [Cmd+'\r']  [('insertNewParagraph:', 'FirstResponder')]
+Plug-ins  []  
+Window  []  
+  Minimize  [Cmd+'m']  [('performMiniaturize:', 'FirstResponder')]
+  Zoom  [Shift+Cmd+'m']  [('performZoom:', 'FirstResponder')]
+  ----
+  Bring All to Front  []  [('arrangeInFront:', 'FirstResponder')]
+Help  []  
+  MacDown Help  []  [('showHelp:', '<MPMainController>')]
+  Contributing to MacDown  []  [('showContributing:', '<MPMainController>')]

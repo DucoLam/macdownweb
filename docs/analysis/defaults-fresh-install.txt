@@ -1,0 +1,45 @@
+{
+    "NSSplitView Subview Frames Untitled" =     (
+        "0.000000, 0.000000, 509.000000, 578.000000, NO, NO",
+        "510.000000, 0.000000, 514.000000, 578.000000, NO, NO"
+    );
+    "NSSplitView Subview Frames file:///var/folders/62/7kvb70mx1nz466f_531djyfw0000gn/T/contribute.md" =     (
+        "0.000000, 0.000000, 652.000000, 586.000000, NO, NO",
+        "653.000000, 0.000000, 658.000000, 586.000000, NO, NO"
+    );
+    "NSSplitView Subview Frames file:///var/folders/62/7kvb70mx1nz466f_531djyfw0000gn/T/help.md" =     (
+        "0.000000, 0.000000, 955.000000, 918.000000, NO, NO",
+        "956.000000, 0.000000, 964.000000, 918.000000, NO, NO"
+    );
+    "NSToolbar Configuration E416A0C4-CA17-4923-8651-5CFF69659C83" =     {
+        "TB Display Mode" = 2;
+        "TB Icon Size Mode" = 1;
+        "TB Is Shown" = 1;
+        "TB Size Mode" = 1;
+    };
+    "NSWindow Frame Untitled" = "0 104 1024 606 0 0 1920 1050 ";
+    "NSWindow Frame file:///var/folders/62/7kvb70mx1nz466f_531djyfw0000gn/T/contribute.md" = "609 104 1311 614 0 0 1920 1050 ";
+    "NSWindow Frame file:///var/folders/62/7kvb70mx1nz466f_531djyfw0000gn/T/help.md" = "0 104 1920 946 0 0 1920 1050 ";
+    SUHasLaunchedBefore = 1;
+    editorAutoIncrementNumberedLists = 1;
+    editorBaseFontInfo =     {
+        name = "Menlo-Regular";
+        size = 14;
+    };
+    editorHorizontalInset = 15;
+    editorInsertPrefixInBlock = 1;
+    editorLineSpacing = 3;
+    editorMaximumWidth = 1000;
+    editorStyleName = "Tomorrow+";
+    editorSyncScrolling = 1;
+    editorVerticalInset = 30;
+    extensionFencedCode = 1;
+    extensionFootnotes = 1;
+    extensionIntraEmphasis = 1;
+    extensionTables = 1;
+    firstVersionInstalled = "1008.4";
+    htmlDefaultDirectoryUrl = "~";
+    htmlStyleName = GitHub2;
+    htmlTemplateName = Default;
+    latestVersionInstalled = "1008.4";
+}
