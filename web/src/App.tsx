@@ -183,7 +183,7 @@ export function App() {
   const assetsVersion = useUserAssetsVersion(); // F-138: imported or reloaded styles re-render the preview
   const rendered = useMemo(
     // The renderer gets "\n" line breaks, as Hoedown makes of CR and CRLF (D-13).
-    () => renderDocument(normalizeLineBreaks(renderedText), prefs, { title: previewTitle }),
+    () => renderDocument(normalizeLineBreaks(renderedText), prefs, { title: previewTitle, sourceLines: true }),
     // eslint-disable-next-line react-hooks/exhaustive-deps -- assetsVersion invalidates the style lookup
     [renderedText, prefs, previewTitle, assetsVersion],
   );
@@ -209,6 +209,12 @@ export function App() {
   useEffect(() => {
     if (prefs.editorShowWordCount && previewDocRef.current) setCount(countText(previewDocRef.current));
   }, [prefs.editorShowWordCount]);
+
+  // F-11: images that load after the render move the blocks below them.
+  const onPreviewLayoutChange = useCallback((doc: Document) => {
+    const view = viewRef.current;
+    if (prefsRef.current.editorSyncScrolling && view) syncScroll(view, doc);
+  }, []);
 
   const onEditorScroll = useCallback((view: EditorView) => {
     const doc = previewDocRef.current;
@@ -903,6 +909,7 @@ export function App() {
         scripts={rendered.scripts}
         scriptPrefs={scriptPrefs}
         onRendered={onRendered}
+        onLayoutChange={onPreviewLayoutChange}
         onKeyDown={onKeyDown}
         zoom={previewZoom}
       />
