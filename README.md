@@ -29,9 +29,9 @@ The first build takes a minute or two. Later starts take a few seconds.
 | Show logs | `docker compose logs -f` |
 | Rebuild after code changes | `docker compose up --build -d` |
 
-### With podman and `just`
+### With `just`
 
-The `justfile` wraps the same steps for podman:
+If you have [just](https://github.com/casey/just) (macOS, Linux and Windows), the `justfile` wraps the same steps. It uses podman when it is installed and Docker otherwise; set `ENGINE=docker` to force Docker.
 
 | What | Command |
 |---|---|
