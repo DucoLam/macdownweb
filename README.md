@@ -29,6 +29,17 @@ The first build takes a minute or two. Later starts take a few seconds.
 | Show logs | `docker compose logs -f` |
 | Rebuild after code changes | `docker compose up --build -d` |
 
+### With podman and `just`
+
+The `justfile` wraps the same steps for podman:
+
+| What | Command |
+|---|---|
+| Build and start | `just up` |
+| Stop and remove the container (keep the image) | `just down` |
+| Remove the container, image and build cache | `just clean` |
+| Status / logs | `just ps` / `just logs` |
+
 ### Without Compose
 
 ```
