@@ -131,6 +131,21 @@ export function scrollPoints(view: EditorView, anchors: PreviewAnchor[]): Scroll
   return anchors.map((a) => ({ editor: editorY(a.line), preview: a.y }));
 }
 
+/** Where the last sync put each preview (to tell it apart from a link jump or a manual scroll). */
+const syncedTop = new WeakMap<Document, number>();
+
+/**
+ * After the preview layout changed (an image loaded), syncs again only if the
+ * preview is still where the last sync put it, so a jump to an in-page link
+ * (F-18) or a manual scroll of the preview is kept.
+ */
+export function resyncAfterLayoutChange(view: EditorView, previewDoc: Document): void {
+  const last = syncedTop.get(previewDoc);
+  const win = previewDoc.defaultView;
+  if (last === undefined || !win || Math.abs(win.scrollY - last) > 1) return;
+  syncScroll(view, previewDoc);
+}
+
 /** Scrolls the preview document to follow the editor. */
 export function syncScroll(view: EditorView, previewDoc: Document): void {
   const win = previewDoc.defaultView;
@@ -146,4 +161,5 @@ export function syncScroll(view: EditorView, previewDoc: Document): void {
     points: scrollPoints(view, previewAnchors(previewDoc)),
   });
   win.scrollTo(0, y);
+  syncedTop.set(previewDoc, win.scrollY);
 }

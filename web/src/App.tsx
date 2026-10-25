@@ -37,7 +37,7 @@ import {
   togglePane,
   type SplitState,
 } from './layout/split';
-import { syncScroll } from './layout/scrollSync';
+import { resyncAfterLayoutChange, syncScroll } from './layout/scrollSync';
 import { useUserAssetsVersion } from './prefs/userAssets';
 import {
   UNTITLED,
@@ -213,7 +213,7 @@ export function App() {
   // F-11: images that load after the render move the blocks below them.
   const onPreviewLayoutChange = useCallback((doc: Document) => {
     const view = viewRef.current;
-    if (prefsRef.current.editorSyncScrolling && view) syncScroll(view, doc);
+    if (prefsRef.current.editorSyncScrolling && view) resyncAfterLayoutChange(view, doc);
   }, []);
 
   const onEditorScroll = useCallback((view: EditorView) => {
